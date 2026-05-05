@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Defect Logs - AIRIS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "tertiary-container": "#b75b00",
+                        "surface-tint": "#005ac2",
+                        "primary-container": "#2170e4",
+                        "background": "#f8f9ff",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#adc6ff",
+                        "outline-variant": "#c2c6d6",
+                        "on-primary-fixed-variant": "#004395",
+                        "on-background": "#0b1c30",
+                        "error": "#ba1a1a",
+                        "outline": "#727785",
+                        "on-tertiary-fixed-variant": "#723600",
+                        "on-secondary-fixed-variant": "#005236",
+                        "on-primary-fixed": "#001a42",
+                        "on-error-container": "#93000a",
+                        "on-tertiary": "#ffffff",
+                        "tertiary": "#924700",
+                        "surface-variant": "#d3e4fe",
+                        "surface-bright": "#f8f9ff",
+                        "on-error": "#ffffff",
+                        "surface-container": "#e5eeff",
+                        "tertiary-fixed": "#ffdcc6",
+                        "on-primary": "#ffffff",
+                        "surface-container-low": "#eff4ff",
+                        "error-container": "#ffdad6",
+                        "surface-dim": "#cbdbf5",
+                        "secondary-container": "#6cf8bb",
+                        "primary-fixed": "#d8e2ff",
+                        "primary": "#0058be",
+                        "inverse-on-surface": "#eaf1ff",
+                        "inverse-surface": "#213145",
+                        "on-secondary": "#ffffff",
+                        "surface": "#f8f9ff",
+                        "on-surface-variant": "#424754",
+                        "surface-container-high": "#dce9ff",
+                        "tertiary-fixed-dim": "#ffb786",
+                        "on-tertiary-container": "#fffbff",
+                        "on-primary-container": "#fefcff",
+                        "surface-container-highest": "#d3e4fe",
+                        "secondary-fixed": "#6ffbbe",
+                        "secondary-fixed-dim": "#4edea3",
+                        "on-surface": "#0b1c30",
+                        "on-secondary-fixed": "#002113",
+                        "secondary": "#006c49",
+                        "inverse-primary": "#adc6ff",
+                        "on-tertiary-fixed": "#311400",
+                        "on-secondary-container": "#00714d"
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.25rem",
+                        lg: "0.5rem",
+                        xl: "0.75rem",
+                        full: "9999px"
+                    },
+                    spacing: {
+                        sm: "12px",
+                        md: "24px",
+                        margin: "32px",
+                        lg: "40px",
+                        base: "8px",
+                        xs: "4px",
+                        gutter: "24px",
+                        xl: "64px"
+                    },
+                    fontFamily: {
+                        "label-caps": ["Inter"],
+                        "display-lg": ["Inter"],
+                        "mono-data": ["monospace"],
+                        "body-main": ["Inter"],
+                        "body-compact": ["Inter"],
+                        "title-sm": ["Inter"],
+                        "headline-md": ["Inter"]
+                    },
+                    fontSize: {
+                        "label-caps": ["12px", { lineHeight: "1", letterSpacing: "0.05em", fontWeight: "600" }],
+                        "display-lg": ["36px", { lineHeight: "1.2", letterSpacing: "-0.02em", fontWeight: "700" }],
+                        "mono-data": ["14px", { lineHeight: "1.4", fontWeight: "500" }],
+                        "body-main": ["16px", { lineHeight: "1.6", fontWeight: "400" }],
+                        "body-compact": ["14px", { lineHeight: "1.5", fontWeight: "400" }],
+                        "title-sm": ["18px", { lineHeight: "1.4", fontWeight: "600" }],
+                        "headline-md": ["24px", { lineHeight: "1.3", letterSpacing: "-0.01em", fontWeight: "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-main antialiased flex h-screen overflow-hidden">
+<!-- SideNavBar -->
+<nav class="bg-surface-container-low dark:bg-surface-container-lowest font-label-caps text-label-caps fixed left-0 top-0 h-full w-[280px] border-r border-outline-variant/30 flex flex-col h-full py-md px-sm z-40 hidden md:flex">
+<div class="flex items-center gap-sm mb-lg px-sm">
+<img alt="AIRIS System Logo" class="w-10 h-10 rounded-full object-cover border border-outline-variant/20" data-alt="A stylized geometric metallic logo icon on a white background, evoking a sense of advanced engineering and modern AI technology. The logo utilizes sharp angles and a clean, technical aesthetic suitable for a high-end industrial software system. The lighting is crisp and even, highlighting the logo's subtle dimensionality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDmfw4OVcfAdo37icIZK9EwucTDPtXT9WrLCRtzB5eYONovrTMMU8YypuECnXqgtpm2CIXyX9T7ysUPmnh8WrGXkdycAjseS73HdetJ-Jg68HjrjUC_g8eZqiQ3K3gSsQZSfnwuC3neQkMoTfC8lAEmMMzg6mC_O67voFlx3TDFljRNUeIYWDYJCG6wsDFZuzAA1xXqB6Zgv5Du1kuynEo99577KT79VB82M0mhipSMu2rumDLT8iSkQRyH9zPqrCvEqHHcAObvBg"/>
+<div>
+<h1 class="font-headline-md text-headline-md text-primary dark:text-primary-fixed-dim">AIRIS</h1>
+<p class="text-on-surface-variant font-body-compact text-xs">Railway Monitor v4.2</p>
+</div>
+</div>
+<div class="flex-1 space-y-2">
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant dark:text-outline-variant hover:bg-surface-container-high dark:hover:bg-surface-container-highest transition-colors active:translate-x-1 duration-150" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant dark:text-outline-variant hover:bg-surface-container-high dark:hover:bg-surface-container-highest transition-colors active:translate-x-1 duration-150" href="#">
+<span class="material-symbols-outlined">videocam</span>
+<span>Live Feed</span>
+</a>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant dark:text-outline-variant hover:bg-surface-container-high dark:hover:bg-surface-container-highest transition-colors active:translate-x-1 duration-150" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span>Track Analysis</span>
+</a>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-primary dark:text-primary-fixed-dim bg-primary-container/20 border-r-4 border-primary font-bold hover:bg-surface-container-high dark:hover:bg-surface-container-highest transition-colors active:translate-x-1 duration-150" href="#">
+<span class="material-symbols-outlined">report_problem</span>
+<span>Defect Logs</span>
+</a>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant dark:text-outline-variant hover:bg-surface-container-high dark:hover:bg-surface-container-highest transition-colors active:translate-x-1 duration-150" href="#">
+<span class="material-symbols-outlined">engineering</span>
+<span>Maintenance</span>
+</a>
+</div>
+<div class="mt-auto pt-lg">
+<button class="w-full bg-primary text-on-primary py-sm px-md rounded-lg font-title-sm text-title-sm bg-gradient-to-b from-primary to-[#00489e] border-t border-[#4d94ff]/30 shadow-sm hover:shadow-md transition-all active:scale-95 mb-lg">
+                New Inspection
+            </button>
+<div class="space-y-2 border-t border-outline-variant/30 pt-sm">
+<a class="flex items-center gap-sm px-sm py-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-sm">help</span>
+<span>Support</span>
+</a>
+<a class="flex items-center gap-sm px-sm py-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+<span>System Status</span>
+</a>
+</div>
+</div>
+</nav>
+<div class="flex-1 md:ml-[280px] flex flex-col h-full bg-surface-bright">
+<!-- TopNavBar -->
+<header class="bg-surface/80 dark:bg-surface-dim/80 font-body-main text-body-main docked full-width top-0 sticky z-50 backdrop-blur-xl border-b border-outline-variant/20 shadow-sm flex justify-between items-center w-full px-margin py-base h-[72px]">
+<div class="flex items-center gap-md">
+<div class="md:hidden font-headline-md text-headline-md font-bold tracking-tight text-primary dark:text-primary-fixed-dim">AIRIS</div>
+</div>
+<div class="flex-1 flex justify-end items-center gap-md">
+<div class="relative hidden sm:block w-64">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline">search</span>
+<input class="w-full pl-10 pr-4 py-2 bg-surface-container-lowest border border-outline-variant rounded-full text-body-compact focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" placeholder="Search..." type="text"/>
+</div>
+<div class="flex items-center gap-xs">
+<button class="p-2 rounded-full text-on-surface-variant dark:text-outline-variant hover:bg-primary-container/10 dark:hover:bg-primary-fixed-dim/10 transition-all active:scale-98 duration-200">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="p-2 rounded-full text-on-surface-variant dark:text-outline-variant hover:bg-primary-container/10 dark:hover:bg-primary-fixed-dim/10 transition-all active:scale-98 duration-200">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<button class="p-2 rounded-full text-on-surface-variant dark:text-outline-variant hover:bg-primary-container/10 dark:hover:bg-primary-fixed-dim/10 transition-all active:scale-98 duration-200">
+<span class="material-symbols-outlined">sensors</span>
+</button>
+</div>
+<div class="w-px h-8 bg-outline-variant/30 hidden sm:block"></div>
+<img alt="Chief Engineer Profile" class="w-10 h-10 rounded-full border-2 border-surface-container-high cursor-pointer" data-alt="A professional headshot of an engineer in a control room environment. Soft, modern lighting highlights their features against a slightly blurred background of technical screens. The overall tone is serious, capable, and embedded in a high-tech industrial setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqNcYrAQNgLkUuIIcUyjKGtsAo8mYm79lSCe6Tv94Zx3CHcmCxkn6lbPhjVgvhuO4YTbvScahl-IQyWt9t3luawYhp27msSswe5nsB0QjTvsXMpvOc4JJXQonhivlShAs-AuyUAV3Q9agiPsDqTq1LiKawMr2RPNBfP_thvAQ1fPpjJXjLJIani_djZRqP2m4WiXMnqNdierBzNrDpOd3RABKiuxS6MU4Z3nmpvvYVS3b1tWNZHqk2mHsXxdBp7ZPFXCDhzsguCGE"/>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-1 overflow-y-auto p-margin flex flex-col gap-gutter">
+<!-- Page Header -->
+<div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 bg-surface-container-lowest p-md rounded-xl border border-outline-variant/20 shadow-sm">
+<div>
+<h2 class="font-display-lg text-display-lg text-on-background">Defect Logs</h2>
+<p class="text-on-surface-variant font-body-main mt-1">Review and manage AI-detected anomalies.</p>
+</div>
+<div class="flex flex-wrap items-center gap-sm">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="pl-9 pr-3 py-2 bg-surface border border-outline-variant rounded-md text-body-compact focus:border-primary focus:ring-1 focus:ring-primary focus:shadow-[0_0_0_4px_rgba(33,112,228,0.1)] outline-none transition-all w-48" placeholder="Search defects..." type="text"/>
+</div>
+<select class="px-3 py-2 bg-surface border border-outline-variant rounded-md text-body-compact text-on-surface-variant focus:border-primary outline-none">
+<option>All Severities</option>
+<option>Critical</option>
+<option>High</option>
+</select>
+<select class="px-3 py-2 bg-surface border border-outline-variant rounded-md text-body-compact text-on-surface-variant focus:border-primary outline-none">
+<option>All Train IDs</option>
+<option>TRN-8422</option>
+<option>TRN-1109</option>
+</select>
+<button class="flex items-center gap-2 bg-surface-container-lowest border border-outline-variant text-on-background px-4 py-2 rounded-md font-title-sm text-sm hover:bg-surface-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-sm">download</span>
+                        Export Report
+                    </button>
+</div>
+</div>
+<!-- 3-Column Layout -->
+<div class="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-gutter min-h-0">
+<!-- Left Column: Filters -->
+<div class="lg:col-span-3 xl:col-span-2 bg-surface-container-lowest border border-outline-variant/20 rounded-xl shadow-sm flex flex-col h-full overflow-hidden">
+<div class="p-md border-b border-outline-variant/20 bg-surface-container-low/50">
+<h3 class="font-title-sm text-title-sm text-on-background flex items-center gap-2">
+<span class="material-symbols-outlined text-base">filter_list</span>
+                            Filters
+                        </h3>
+</div>
+<div class="p-md overflow-y-auto flex-1 space-y-lg">
+<!-- Filter Group -->
+<div class="space-y-sm">
+<h4 class="font-label-caps text-label-caps text-outline">SEVERITY</h4>
+<div class="space-y-2">
+<label class="flex items-center gap-2 cursor-pointer group">
+<input checked="" class="rounded border-outline-variant text-primary focus:ring-primary w-4 h-4" type="checkbox"/>
+<span class="font-body-compact text-body-compact text-on-surface group-hover:text-primary transition-colors">Critical</span>
+<span class="ml-auto bg-error-container text-on-error-container text-[10px] px-2 py-0.5 rounded-full font-bold">12</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input checked="" class="rounded border-outline-variant text-primary focus:ring-primary w-4 h-4" type="checkbox"/>
+<span class="font-body-compact text-body-compact text-on-surface group-hover:text-primary transition-colors">High</span>
+<span class="ml-auto bg-tertiary-fixed text-on-tertiary-fixed-variant text-[10px] px-2 py-0.5 rounded-full font-bold">45</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-outline-variant text-primary focus:ring-primary w-4 h-4" type="checkbox"/>
+<span class="font-body-compact text-body-compact text-on-surface group-hover:text-primary transition-colors">Medium</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-outline-variant text-primary focus:ring-primary w-4 h-4" type="checkbox"/>
+<span class="font-body-compact text-body-compact text-on-surface group-hover:text-primary transition-colors">Low</span>
+</label>
+</div>
+</div>
+<!-- Filter Group -->
+<div class="space-y-sm">
+<h4 class="font-label-caps text-label-caps text-outline">COMPONENT</h4>
+<div class="space-y-2">
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-outline-variant text-primary focus:ring-primary w-4 h-4" type="checkbox"/>
+<span class="font-body-compact text-body-compact text-on-surface group-hover:text-primary transition-colors">Wheels</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input checked="" class="rounded border-outline-variant text-primary focus:ring-primary w-4 h-4" type="checkbox"/>
+<span class="font-body-compact text-body-compact text-on-surface group-hover:text-primary transition-colors">Brake Pads</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-outline-variant text-primary focus:ring-primary w-4 h-4" type="checkbox"/>
+<span class="font-body-compact text-body-compact text-on-surface group-hover:text-primary transition-colors">Axles</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-outline-variant text-primary focus:ring-primary w-4 h-4" type="checkbox"/>
+<span class="font-body-compact text-body-compact text-on-surface group-hover:text-primary transition-colors">Doors</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-outline-variant text-primary focus:ring-primary w-4 h-4" type="checkbox"/>
+<span class="font-body-compact text-body-compact text-on-surface group-hover:text-primary transition-colors">Bogies</span>
+</label>
+</div>
+</div>
+<!-- Date Range -->
+<div class="space-y-sm">
+<h4 class="font-label-caps text-label-caps text-outline">DATE RANGE</h4>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">calendar_today</span>
+<input class="pl-9 pr-3 py-2 w-full bg-surface border border-outline-variant rounded-md text-body-compact text-on-surface cursor-pointer hover:border-primary transition-colors" readonly="" type="text" value="Last 7 Days"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Center Column: Data Table -->
+<div class="lg:col-span-5 xl:col-span-6 bg-surface-container-lowest border border-outline-variant/20 rounded-xl shadow-sm flex flex-col h-full overflow-hidden">
+<div class="overflow-x-auto flex-1">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low font-label-caps text-label-caps text-outline border-b border-outline-variant/30">
+<th class="p-sm font-semibold">Defect ID</th>
+<th class="p-sm font-semibold">Train #</th>
+<th class="p-sm font-semibold">Component</th>
+<th class="p-sm font-semibold">Severity</th>
+<th class="p-sm font-semibold">Conf.</th>
+<th class="p-sm font-semibold">Timestamp</th>
+<th class="p-sm font-semibold">Status</th>
+</tr>
+</thead>
+<tbody class="font-body-compact text-body-compact">
+<!-- Row 1 Active -->
+<tr class="border-b border-outline-variant/10 hover:bg-surface-container-lowest/50 transition-colors bg-primary-container/5 cursor-pointer relative">
+<td class="p-sm font-mono-data text-primary font-medium">DF-8902</td>
+<td class="p-sm text-on-surface-variant">TRN-8422</td>
+<td class="p-sm text-on-background font-medium">Brake Pad</td>
+<td class="p-sm"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-error-container text-on-error-container">Critical</span></td>
+<td class="p-sm text-on-surface-variant">98%</td>
+<td class="p-sm text-on-surface-variant text-xs">10:42 AM, Today</td>
+<td class="p-sm"><span class="text-xs font-medium text-tertiary">Awaiting Review</span></td>
+<td class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></td>
+</tr>
+<!-- Row 2 -->
+<tr class="border-b border-outline-variant/10 hover:bg-surface-container-lowest/50 transition-colors cursor-pointer">
+<td class="p-sm font-mono-data text-on-surface-variant hover:text-primary transition-colors">DF-8901</td>
+<td class="p-sm text-on-surface-variant">TRN-1109</td>
+<td class="p-sm text-on-background font-medium">Wheel Flange</td>
+<td class="p-sm"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-tertiary-fixed text-on-tertiary-fixed-variant">High</span></td>
+<td class="p-sm text-on-surface-variant">85%</td>
+<td class="p-sm text-on-surface-variant text-xs">09:15 AM, Today</td>
+<td class="p-sm"><span class="text-xs font-medium text-outline">Logged</span></td>
+</tr>
+<!-- Row 3 -->
+<tr class="border-b border-outline-variant/10 hover:bg-surface-container-lowest/50 transition-colors cursor-pointer">
+<td class="p-sm font-mono-data text-on-surface-variant hover:text-primary transition-colors">DF-8895</td>
+<td class="p-sm text-on-surface-variant">TRN-8422</td>
+<td class="p-sm text-on-background font-medium">Door Seal</td>
+<td class="p-sm"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-surface-container-high text-on-surface-variant">Low</span></td>
+<td class="p-sm text-on-surface-variant">92%</td>
+<td class="p-sm text-on-surface-variant text-xs">Yesterday</td>
+<td class="p-sm"><span class="text-xs font-medium text-secondary">Resolved</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="p-sm border-t border-outline-variant/20 bg-surface-container-low/30 flex justify-between items-center text-body-compact text-outline">
+<span>Showing 1-15 of 243</span>
+<div class="flex gap-1">
+<button class="p-1 rounded hover:bg-surface-variant transition-colors disabled:opacity-50" disabled=""><span class="material-symbols-outlined text-sm">chevron_left</span></button>
+<button class="p-1 rounded hover:bg-surface-variant transition-colors"><span class="material-symbols-outlined text-sm">chevron_right</span></button>
+</div>
+</div>
+</div>
+<!-- Right Column: Detail Panel -->
+<div class="lg:col-span-4 xl:col-span-4 bg-surface-container-lowest border border-outline-variant/20 rounded-xl shadow-sm flex flex-col h-full overflow-hidden">
+<div class="p-md border-b border-outline-variant/20 flex justify-between items-center bg-surface-container-low/50">
+<h3 class="font-title-sm text-title-sm text-on-background">Defect Detail</h3>
+<div class="flex gap-2">
+<button class="p-1.5 text-outline hover:text-primary hover:bg-primary-container/10 rounded transition-colors" title="Download Image"><span class="material-symbols-outlined text-sm">download</span></button>
+<button class="p-1.5 text-outline hover:text-primary hover:bg-primary-container/10 rounded transition-colors" title="Expand View"><span class="material-symbols-outlined text-sm">open_in_full</span></button>
+</div>
+</div>
+<div class="overflow-y-auto flex-1 p-md space-y-md">
+<!-- Image Area -->
+<div class="relative rounded-lg overflow-hidden border border-outline-variant/30 bg-black aspect-video">
+<img alt="Inspection Zoom" class="w-full h-full object-cover opacity-90" data-alt="A close-up, high-resolution technical photograph of a train undercarriage, specifically focusing on a brake pad assembly. The lighting is harsh and directional, typical of industrial inspection cameras, casting deep shadows. A stark, bright red rectangular bounding box is superimposed over a worn section of the brake pad, indicating an AI-detected anomaly. The overall color palette is metallic grays, dark shadows, and the vibrant alert red." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBw5V4918rYKsTYoHHiMQrlE4FtEZyjC19wvBJSoa_RYH3xPXUKXeGytHVaxPchDNtFHcnUPC2KNDTSFeaR4_7gWIGCcnQRVa4O1C_1Yn5r1sd-dLFHdwwESI7C4RdbNR_B-GkPZpw1V8f7qm0BdXMBhf9lN41jbNpnV7wycyZENTBrOUbnhu15HYW2Y7RxY3ZeZd-wXIhDJQA-kf8Wv_yuRWWGow215kXK2bgC19SCWfR9T0MzeUXbJ_k6HcuypV4wA71IyjySvXQ"/>
+<!-- Bounding Box Overlay -->
+<div class="absolute top-1/4 left-1/3 w-1/4 h-1/3 border-2 border-error bg-error/10"></div>
+<div class="absolute bottom-2 left-2 bg-black/70 backdrop-blur-sm text-white font-mono-data text-[10px] px-2 py-1 rounded">Cam-04 • Frame 8422</div>
+</div>
+<!-- Data Points -->
+<div class="grid grid-cols-2 gap-sm">
+<div class="bg-surface p-sm rounded border border-outline-variant/20">
+<span class="block font-label-caps text-label-caps text-outline mb-1">DEFECT TYPE</span>
+<span class="font-body-compact text-on-background font-medium">Severe Wear</span>
+</div>
+<div class="bg-surface p-sm rounded border border-outline-variant/20">
+<span class="block font-label-caps text-label-caps text-outline mb-1">CONFIDENCE</span>
+<span class="font-body-compact text-primary font-bold">98.4%</span>
+</div>
+</div>
+<div class="space-y-1">
+<h4 class="font-label-caps text-label-caps text-outline">AI NOTES</h4>
+<p class="font-body-compact text-on-surface-variant bg-surface p-sm rounded border border-outline-variant/20">
+                                Brake pad thickness detected below critical threshold (2.1mm). Uneven wear pattern suggests possible caliper misalignment. Immediate inspection recommended before next dispatch.
+                            </p>
+</div>
+<!-- Action Buttons -->
+<div class="flex gap-sm">
+<button class="flex-1 bg-primary text-on-primary py-2 rounded-md font-title-sm text-sm hover:bg-[#00489e] transition-colors shadow-sm">Create Work Order</button>
+<button class="flex-1 bg-surface border border-outline-variant text-on-background py-2 rounded-md font-title-sm text-sm hover:bg-surface-container transition-colors">Dismiss</button>
+</div>
+<hr class="border-outline-variant/20"/>
+<!-- Timeline -->
+<div class="space-y-sm">
+<h4 class="font-label-caps text-label-caps text-outline">HISTORY</h4>
+<div class="relative pl-4 border-l-2 border-outline-variant/30 space-y-4 pb-2">
+<div class="relative">
+<div class="absolute -left-[21px] top-1 w-3 h-3 rounded-full bg-error ring-4 ring-surface-container-lowest"></div>
+<p class="font-body-compact text-sm text-on-background font-medium">Critical Defect Flagged</p>
+<p class="font-body-compact text-xs text-outline">Today, 10:42 AM • System Auto-detect</p>
+</div>
+<div class="relative">
+<div class="absolute -left-[21px] top-1 w-3 h-3 rounded-full bg-surface-variant border border-outline ring-4 ring-surface-container-lowest"></div>
+<p class="font-body-compact text-sm text-on-background">Inspection Initiated</p>
+<p class="font-body-compact text-xs text-outline">Today, 10:00 AM • Routine Scan</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Analytics Row -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mt-auto">
+<div class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl p-md shadow-sm">
+<h4 class="font-title-sm text-sm text-on-background mb-4">Defect Trends (30 Days)</h4>
+<!-- Placeholder for Chart -->
+<div class="h-24 bg-gradient-to-r from-surface-variant/50 to-surface-container-low rounded flex items-end p-2 gap-1 border-b border-l border-outline-variant/30">
+<div class="w-full bg-primary/20 h-1/4 rounded-t"></div>
+<div class="w-full bg-primary/40 h-2/4 rounded-t"></div>
+<div class="w-full bg-primary/30 h-1/3 rounded-t"></div>
+<div class="w-full bg-primary/60 h-3/4 rounded-t"></div>
+<div class="w-full bg-error/50 h-full rounded-t"></div>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl p-md shadow-sm">
+<h4 class="font-title-sm text-sm text-on-background mb-4">Severity Distribution</h4>
+<div class="flex items-center gap-4 h-24">
+<div class="w-16 h-16 rounded-full border-4 border-surface-variant border-t-error border-r-tertiary-fixed transform rotate-45"></div>
+<div class="flex-1 space-y-1">
+<div class="flex justify-between text-xs font-body-compact"><span class="text-error font-medium">Critical</span><span>15%</span></div>
+<div class="flex justify-between text-xs font-body-compact"><span class="text-tertiary-fixed-dim font-medium">High</span><span>30%</span></div>
+<div class="flex justify-between text-xs font-body-compact"><span class="text-outline font-medium">Other</span><span>55%</span></div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl p-md shadow-sm">
+<h4 class="font-title-sm text-sm text-on-background mb-4">Top Affected Components</h4>
+<div class="space-y-2 h-24">
+<div>
+<div class="flex justify-between text-xs font-body-compact mb-1"><span>Wheels</span><span class="font-mono-data">142</span></div>
+<div class="w-full bg-surface-variant rounded-full h-1.5"><div class="bg-primary h-1.5 rounded-full w-[80%]"></div></div>
+</div>
+<div>
+<div class="flex justify-between text-xs font-body-compact mb-1"><span>Brake Pads</span><span class="font-mono-data">98</span></div>
+<div class="w-full bg-surface-variant rounded-full h-1.5"><div class="bg-primary/70 h-1.5 rounded-full w-[60%]"></div></div>
+</div>
+<div>
+<div class="flex justify-between text-xs font-body-compact mb-1"><span>Doors</span><span class="font-mono-data">45</span></div>
+<div class="w-full bg-surface-variant rounded-full h-1.5"><div class="bg-primary/40 h-1.5 rounded-full w-[30%]"></div></div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>

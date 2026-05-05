@@ -1,0 +1,6 @@
+train: E:\PROJECTS\VandeBharat\Combine Dataset\dataset\train\images
+val: E:\PROJECTS\VandeBharat\Combine Dataset\dataset\test\images
+test: E:\PROJECTS\VandeBharat\Combine Dataset\dataset\test\images
+
+nc: 21
+names: ['Air Brake Hose', 'Air intake filter', 'Axel Box', 'Distributed traction system', 'Pipe', 'Tank', 'suspension and braking systems', 'wheel', 'wheel axel', 'wire', 'Battery System', 'Electric/Sensor Box', 'Joints & Brackets', 'Fasteners', 'Structural Coverings', 'Steps/Stairs', 'Support/Beams', 'Physical Damage', 'Leakage', 'Deformation/Rust', 'Missing Component']

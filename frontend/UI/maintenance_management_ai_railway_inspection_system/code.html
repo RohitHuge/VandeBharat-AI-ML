@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>RailPulse AI - Maintenance Management</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-error": "#ffffff",
+                      "outline-variant": "#c2c6d6",
+                      "primary": "#0058be",
+                      "secondary": "#006c49",
+                      "surface-container-highest": "#d3e4fe",
+                      "secondary-fixed-dim": "#4edea3",
+                      "error-container": "#ffdad6",
+                      "surface": "#f8f9ff",
+                      "on-secondary-container": "#00714d",
+                      "on-primary-fixed-variant": "#004395",
+                      "background": "#f8f9ff",
+                      "surface-container-low": "#eff4ff",
+                      "on-surface-variant": "#424754",
+                      "on-primary-fixed": "#001a42",
+                      "on-tertiary-fixed-variant": "#723600",
+                      "error": "#ba1a1a",
+                      "surface-dim": "#cbdbf5",
+                      "secondary-container": "#6cf8bb",
+                      "inverse-surface": "#213145",
+                      "on-error-container": "#93000a",
+                      "on-background": "#0b1c30",
+                      "on-surface": "#0b1c30",
+                      "primary-container": "#2170e4",
+                      "surface-container": "#e5eeff",
+                      "secondary-fixed": "#6ffbbe",
+                      "inverse-primary": "#adc6ff",
+                      "surface-container-high": "#dce9ff",
+                      "on-secondary": "#ffffff",
+                      "on-tertiary": "#ffffff",
+                      "on-secondary-fixed": "#002113",
+                      "on-secondary-fixed-variant": "#005236",
+                      "tertiary-fixed": "#ffdcc6",
+                      "surface-container-lowest": "#ffffff",
+                      "surface-tint": "#005ac2",
+                      "primary-fixed-dim": "#adc6ff",
+                      "primary-fixed": "#d8e2ff",
+                      "on-tertiary-container": "#fffbff",
+                      "tertiary-container": "#b75b00",
+                      "tertiary-fixed-dim": "#ffb786",
+                      "on-primary-container": "#fefcff",
+                      "tertiary": "#924700",
+                      "surface-variant": "#d3e4fe",
+                      "outline": "#727785",
+                      "inverse-on-surface": "#eaf1ff",
+                      "on-tertiary-fixed": "#311400",
+                      "surface-bright": "#f8f9ff",
+                      "on-primary": "#ffffff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "margin": "32px",
+                      "gutter": "24px",
+                      "base": "8px",
+                      "md": "24px",
+                      "sm": "12px",
+                      "lg": "40px",
+                      "xs": "4px",
+                      "xl": "64px"
+              },
+              "fontFamily": {
+                      "label-caps": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Inter"
+                      ],
+                      "mono-data": [
+                              "monospace"
+                      ],
+                      "display-lg": [
+                              "Inter"
+                      ],
+                      "title-sm": [
+                              "Inter"
+                      ],
+                      "body-main": [
+                              "Inter"
+                      ],
+                      "body-compact": [
+                              "Inter"
+                      ]
+              },
+              "fontSize": {
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "1",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "1.3",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "mono-data": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "display-lg": [
+                              "36px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "title-sm": [
+                              "18px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-main": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-compact": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.5",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-main antialiased min-h-screen flex selection:bg-primary/20">
+<!-- SideNavBar (Shared Component) -->
+<nav class="hidden md:flex flex-col h-full py-base bg-surface-container-lowest fixed left-0 top-0 h-full w-[280px] z-50 border-r border-outline-variant/20 shadow-md transition-all duration-300 ease-in-out">
+<div class="px-md pb-md border-b border-outline-variant/20 mb-sm">
+<div class="flex items-center gap-sm">
+<div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">train</span>
+</div>
+<div>
+<h1 class="font-headline-md text-headline-md font-extrabold text-primary">RailPulse AI</h1>
+<p class="font-label-caps text-label-caps text-on-surface-variant mt-xs">System Active</p>
+</div>
+</div>
+<p class="font-label-caps text-label-caps text-outline mt-sm uppercase tracking-wider">Network Monitoring</p>
+</div>
+<div class="flex-1 overflow-y-auto py-sm">
+<ul class="flex flex-col gap-xs px-sm">
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-label-caps text-label-caps" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+                        Dashboard
+                    </a>
+</li>
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-label-caps text-label-caps" href="#">
+<span class="material-symbols-outlined">videocam</span>
+                        Live Feed
+                    </a>
+</li>
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-label-caps text-label-caps" href="#">
+<span class="material-symbols-outlined">analytics</span>
+                        Track Analysis
+                    </a>
+</li>
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-label-caps text-label-caps" href="#">
+<span class="material-symbols-outlined">report_problem</span>
+                        Defect Logs
+                    </a>
+</li>
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg bg-surface-container-highest text-primary border-r-4 border-primary font-bold transition-all font-label-caps text-label-caps" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">engineering</span>
+                        Maintenance
+                    </a>
+</li>
+</ul>
+</div>
+<div class="px-md py-md border-t border-outline-variant/20 mt-auto">
+<button class="w-full py-sm bg-primary text-on-primary rounded-lg font-label-caps text-label-caps flex items-center justify-center gap-sm hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">download</span>
+                Export Report
+            </button>
+<ul class="flex flex-col gap-xs mt-md">
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-label-caps text-label-caps" href="#">
+<span class="material-symbols-outlined text-[18px]">settings</span>
+                        Settings
+                    </a>
+</li>
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-label-caps text-label-caps" href="#">
+<span class="material-symbols-outlined text-[18px]">contact_support</span>
+                        Support
+                    </a>
+</li>
+</ul>
+</div>
+</nav>
+<!-- Main Content Wrapper -->
+<div class="flex-1 flex flex-col md:ml-[280px] min-h-screen">
+<!-- TopNavBar (Shared Component) -->
+<header class="bg-surface/70 backdrop-blur-md fixed top-0 left-0 w-full z-40 border-b border-outline-variant/30 shadow-sm flex justify-between items-center h-16 px-margin w-full md:pl-[calc(280px+32px)]">
+<div class="flex items-center gap-sm">
+<span class="font-display-lg text-display-lg font-bold text-primary hidden md:block">RailPulse AI</span>
+<span class="font-headline-md text-headline-md font-bold text-primary md:hidden">RailPulse</span>
+</div>
+<div class="flex items-center gap-md">
+<div class="flex items-center gap-sm text-on-surface-variant">
+<button class="p-xs rounded-full hover:bg-surface-container-highest/50 transition-colors cursor-pointer active:scale-95 duration-200">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="p-xs rounded-full hover:bg-surface-container-highest/50 transition-colors cursor-pointer active:scale-95 duration-200">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<button class="p-xs rounded-full hover:bg-surface-container-highest/50 transition-colors cursor-pointer active:scale-95 duration-200 hidden sm:block">
+<span class="material-symbols-outlined">help</span>
+</button>
+</div>
+<div class="w-8 h-8 rounded-full bg-surface-container-high border border-outline-variant/50 overflow-hidden shrink-0 cursor-pointer hover:ring-2 hover:ring-primary/50 transition-all">
+<img alt="Chief Engineer Profile" class="w-full h-full object-cover" data-alt="A professional headshot of a chief railway engineer in a bright, modern control room setting. The lighting is soft and neutral, conveying a sense of calm authority and technological competence. The overall aesthetic is clean, corporate, and high-tech, aligning with an industrial intelligence system interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4adrBL0aK0zZra0qaeCo97jO65Chgp5mI2oKzVDMx3YW6wqpHqAuZhT1RXyUtzweZGRF-c5dCGWrgCV9ZI46wxKx-zTLd88tZFSaa6E9sgxP8XFCMHXaaUfWj2Ngvw8pyv9XHyBtBNLeGwrrs-uDJpKxOEXKJ3IduA_FsduPgy0jfinK9SkSRpfHhIPqk8wIJdy2utPnsUaEdm40y9IBqd6pP5WPGJKzBitTNwyn2hD68esdlqCjMk4LcFwfD7AGf3jswWI9q5bo"/>
+</div>
+</div>
+</header>
+<!-- Main Canvas -->
+<main class="flex-1 p-margin pt-[calc(64px+32px)] flex flex-col gap-gutter">
+<!-- Page Header -->
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-md mb-sm">
+<div>
+<h2 class="font-display-lg text-display-lg font-bold text-on-background tracking-tight">Maintenance Management</h2>
+<p class="font-body-main text-body-main text-on-surface-variant mt-xs">Schedule, track, and analyze predictive maintenance tasks.</p>
+</div>
+<div class="flex items-center gap-sm">
+<button class="flex items-center gap-xs px-sm py-sm rounded-lg border border-outline-variant/40 bg-surface-container-lowest text-on-surface-variant font-label-caps text-label-caps hover:bg-surface-container-low transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+                        This Week
+                    </button>
+<button class="flex items-center gap-xs px-sm py-sm rounded-lg border border-outline-variant/40 bg-surface-container-lowest text-on-surface-variant font-label-caps text-label-caps hover:bg-surface-container-low transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">group</span>
+                        All Teams
+                    </button>
+</div>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Left Panel: Upcoming Maintenance (col-span-4) -->
+<div class="lg:col-span-4 flex flex-col gap-gutter">
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/30 shadow-sm flex flex-col h-full overflow-hidden relative">
+<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-primary-container"></div>
+<div class="p-md border-b border-outline-variant/10 flex justify-between items-center bg-surface/30">
+<h3 class="font-title-sm text-title-sm text-on-background">Upcoming Maintenance</h3>
+<button class="text-primary hover:text-primary-container"><span class="material-symbols-outlined">more_horiz</span></button>
+</div>
+<div class="p-xs flex-1 overflow-y-auto">
+<!-- Item 1 -->
+<div class="p-sm m-xs rounded-lg hover:bg-surface-container-low transition-colors border border-transparent hover:border-outline-variant/20 cursor-pointer">
+<div class="flex justify-between items-start mb-sm">
+<div class="flex items-center gap-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined">directions_railway</span>
+</div>
+<div>
+<p class="font-body-compact text-body-compact font-semibold text-on-background">TRN-8422 Brake System</p>
+<p class="font-mono-data text-mono-data text-outline mt-[2px]">Locomotive 4B</p>
+</div>
+</div>
+<span class="inline-flex px-2 py-1 rounded-md bg-error-container text-on-error-container font-label-caps text-[10px] uppercase tracking-wider">High Priority</span>
+</div>
+<div class="flex justify-between items-center mt-md pt-sm border-t border-outline-variant/10">
+<div class="flex items-center gap-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Scheduled • Today 14:00</span>
+</div>
+<div class="flex -space-x-2">
+<img alt="Engineer" class="w-7 h-7 rounded-full border-2 border-surface-container-lowest object-cover z-10" data-alt="A small circular avatar of a male engineer in a well-lit industrial environment. The focus is on a professional, high-tech aesthetic suitable for an enterprise dashboard." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6TlRv99bMyDkg07d_zY81Fg8S_CtDwf0BVfwipSiB5E6IigEFpNrkrYA-9WE0-bG40UElKgW4T9ltwXn4QCSSvQN_80soY-_UhptrXW9zAa_F6WFlwFYh7iIob2CaTZ9BaZS7ACPtPsxsqJrJNUJtA8KQrHU1lnqsW326Dkxn4Ta0dHLVQus4NzXzwSGlx5xuZo6fIYzafRS4nQRKQqjvl4okbicqu53blcVNSCAAvtLjtoKelJ48ubBgkBV-hN1hbBjzW2YDTy0"/>
+<img alt="Engineer" class="w-7 h-7 rounded-full border-2 border-surface-container-lowest object-cover z-0" data-alt="A small circular avatar of a female engineer in a modern control room. The lighting highlights a competent, focused professional demeanor within a clean, technical setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbiGgV4QznIABM5LNOU72q1eE-WrpDjHyFjkwlzhu61qX-44orJSVWMyTClyDXqTTHtY6fWF-Jbr5HJ1yZQm1stTOpld-8hLu5pr06Y8MlsKOthL7T4CsALjlAxx8kVisvsE0iQqC0WThi704cYH6y4mfwMME70YDFgQQMxwvHiVgb6wiQXSXTECzrWQmJ9e-yajfVOBJuHF3TntTeU4TDLikippfFw5CV4sB2I34L2DZuQ0vZUvrxzh7N4UlnL_RbfR5HeXPe2V0"/>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="p-sm m-xs rounded-lg hover:bg-surface-container-low transition-colors border border-transparent hover:border-outline-variant/20 cursor-pointer">
+<div class="flex justify-between items-start mb-sm">
+<div class="flex items-center gap-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined">build</span>
+</div>
+<div>
+<p class="font-body-compact text-body-compact font-semibold text-on-background">Track Switch Alignment</p>
+<p class="font-mono-data text-mono-data text-outline mt-[2px]">Sector 7-G</p>
+</div>
+</div>
+<span class="inline-flex px-2 py-1 rounded-md bg-surface-container-high text-on-surface font-label-caps text-[10px] uppercase tracking-wider">Medium</span>
+</div>
+<div class="flex justify-between items-center mt-md pt-sm border-t border-outline-variant/10">
+<div class="flex items-center gap-xs">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">In Progress</span>
+</div>
+<div class="flex -space-x-2">
+<img alt="Engineer" class="w-7 h-7 rounded-full border-2 border-surface-container-lowest object-cover z-10" data-alt="A small circular avatar of an engineer with safety glasses in a bright facility. The style is strictly professional, aligning with a corporate minimal design language." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrzlh_BxH5C6SspCoA-Wx8Qr1r2qZ-cy6reeeHohliz2hHUJ6kFCesFiXkTrHR2Q9vesVK0KiZYd6Sn6IHqb1zSDMlit-8fiuY8yI4ytX93yd4azyCwuoSJNvJaITNfGmH9HP38kaYudxeLhJo2VDbI1rp7NPlNDKeuYpVzXsnetMY2Zmx73io4asStRUE9wAsnySTlJgVwQToppJo3IWA5g7-tQFKU8tl6oCqWVsFLbkfemXw8jOU3hDWqtzrvcFe5VHc6Sq3gpQ"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Center Panel: AI Recommendations (col-span-4) -->
+<div class="lg:col-span-4 flex flex-col gap-gutter">
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/30 shadow-sm flex flex-col h-full relative">
+<!-- Glass highlight effect -->
+<div class="absolute inset-0 rounded-xl pointer-events-none border border-white/40 mix-blend-overlay"></div>
+<div class="p-md border-b border-outline-variant/10 flex justify-between items-center bg-surface/30 rounded-t-xl">
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary">smart_toy</span>
+<h3 class="font-title-sm text-title-sm text-on-background">AI Recommendations</h3>
+</div>
+<span class="bg-primary/10 text-primary font-label-caps text-label-caps px-2 py-1 rounded">2 Alerts</span>
+</div>
+<div class="p-md flex flex-col gap-md">
+<!-- Rec 1 -->
+<div class="p-md rounded-xl bg-surface border border-outline-variant/20 hover:shadow-sm transition-shadow">
+<div class="flex justify-between items-start mb-sm">
+<h4 class="font-body-compact text-body-compact font-semibold text-on-background">Brake Pad Replacement (TRN-8422)</h4>
+<span class="material-symbols-outlined text-error text-[20px]">warning</span>
+</div>
+<p class="font-body-compact text-body-compact text-on-surface-variant text-sm mb-md">Acoustic sensors detect abnormal wear patterns on axles 3 &amp; 4. Predicted failure in 14 days.</p>
+<div class="mb-md">
+<div class="flex justify-between items-center mb-xs">
+<span class="font-label-caps text-label-caps text-outline">Severity Analysis</span>
+<span class="font-mono-data text-mono-data text-error font-bold">88%</span>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-error rounded-full" style="width: 88%"></div>
+</div>
+</div>
+<button class="w-full py-2 bg-surface-container-lowest border border-outline-variant/50 text-on-surface rounded-lg font-label-caps text-label-caps flex items-center justify-center gap-sm hover:border-primary hover:text-primary transition-colors">
+                                    Schedule Repair
+                                </button>
+</div>
+<!-- Rec 2 -->
+<div class="p-md rounded-xl bg-surface border border-outline-variant/20 hover:shadow-sm transition-shadow">
+<div class="flex justify-between items-start mb-sm">
+<h4 class="font-body-compact text-body-compact font-semibold text-on-background">Axle Lubrication (TRN-1109)</h4>
+<span class="material-symbols-outlined text-tertiary text-[20px]">info</span>
+</div>
+<p class="font-body-compact text-body-compact text-on-surface-variant text-sm mb-md">Thermal imaging indicates slight temperature increase above baseline during high-speed transit.</p>
+<div class="mb-md">
+<div class="flex justify-between items-center mb-xs">
+<span class="font-label-caps text-label-caps text-outline">Severity Analysis</span>
+<span class="font-mono-data text-mono-data text-tertiary font-bold">45%</span>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-tertiary rounded-full" style="width: 45%"></div>
+</div>
+</div>
+<button class="w-full py-2 bg-surface-container-lowest border border-outline-variant/50 text-on-surface rounded-lg font-label-caps text-label-caps flex items-center justify-center gap-sm hover:border-primary hover:text-primary transition-colors">
+                                    Schedule Maintenance
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Panel: Analytics (col-span-4) -->
+<div class="lg:col-span-4 flex flex-col gap-gutter">
+<!-- Confidence Stat Card -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/30 shadow-sm p-md relative overflow-hidden">
+<div class="absolute right-[-20px] top-[-20px] w-24 h-24 bg-secondary/10 rounded-full blur-xl pointer-events-none"></div>
+<div class="flex items-center gap-sm mb-sm">
+<span class="material-symbols-outlined text-secondary">psychology</span>
+<h3 class="font-title-sm text-title-sm text-on-background">AI Prediction Confidence</h3>
+</div>
+<div class="flex items-baseline gap-xs">
+<span class="font-display-lg text-display-lg font-bold text-secondary">96%</span>
+<span class="font-label-caps text-label-caps text-outline">Across network</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/30 shadow-sm p-md flex-1">
+<h3 class="font-title-sm text-title-sm text-on-background mb-md">Lifecycle Analytics</h3>
+<!-- Mini Stats -->
+<div class="grid grid-cols-2 gap-sm mb-lg">
+<div class="p-sm bg-surface rounded-lg border border-outline-variant/10">
+<p class="font-label-caps text-label-caps text-outline mb-xs">Completion Rate</p>
+<p class="font-headline-md text-headline-md text-on-background">92.4%</p>
+<p class="text-[11px] text-secondary flex items-center mt-1"><span class="material-symbols-outlined text-[14px]">arrow_upward</span> 2.1%</p>
+</div>
+<div class="p-sm bg-surface rounded-lg border border-outline-variant/10">
+<p class="font-label-caps text-label-caps text-outline mb-xs">Downtime Impact</p>
+<p class="font-headline-md text-headline-md text-on-background">1.2 hrs<span class="text-sm font-normal text-outline">/wk</span></p>
+<p class="text-[11px] text-secondary flex items-center mt-1"><span class="material-symbols-outlined text-[14px]">arrow_downward</span> 0.5h</p>
+</div>
+</div>
+<!-- Bar Chart Placeholder -->
+<div class="mt-auto">
+<p class="font-label-caps text-label-caps text-outline mb-sm">Tasks by Type (This Month)</p>
+<div class="flex items-end gap-2 h-32 w-full border-b border-outline-variant/20 pb-2">
+<div class="flex-1 bg-primary/20 hover:bg-primary/30 rounded-t-sm transition-colors relative group" style="height: 40%">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-inverse-surface text-inverse-on-surface text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">Mech</div>
+</div>
+<div class="flex-1 bg-primary/40 hover:bg-primary/50 rounded-t-sm transition-colors relative group" style="height: 65%">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-inverse-surface text-inverse-on-surface text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">Track</div>
+</div>
+<div class="flex-1 bg-primary hover:bg-primary-container rounded-t-sm transition-colors relative group" style="height: 90%">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-inverse-surface text-inverse-on-surface text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">Signal</div>
+</div>
+<div class="flex-1 bg-primary/60 hover:bg-primary/70 rounded-t-sm transition-colors relative group" style="height: 50%">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-inverse-surface text-inverse-on-surface text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">Elec</div>
+</div>
+<div class="flex-1 bg-primary/30 hover:bg-primary/40 rounded-t-sm transition-colors relative group" style="height: 30%">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-inverse-surface text-inverse-on-surface text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">Other</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Section: Maintenance Activity Timeline -->
+<div class="w-full bg-surface-container-lowest rounded-xl border border-outline-variant/30 shadow-sm mt-sm">
+<div class="p-md border-b border-outline-variant/10 flex justify-between items-center">
+<h3 class="font-title-sm text-title-sm text-on-background">Repair History Logs</h3>
+<div class="flex gap-sm">
+<button class="text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined">filter_list</span></button>
+</div>
+</div>
+<div class="p-0 overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface/50 border-b border-outline-variant/20">
+<th class="p-md font-label-caps text-label-caps text-outline w-48">Timestamp</th>
+<th class="p-md font-label-caps text-label-caps text-outline">Activity / Asset</th>
+<th class="p-md font-label-caps text-label-caps text-outline w-32">Train ID</th>
+<th class="p-md font-label-caps text-label-caps text-outline w-32">Status</th>
+<th class="p-md font-label-caps text-label-caps text-outline w-16"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-outline-variant/10 hover:bg-surface-container-low transition-colors group">
+<td class="p-md font-mono-data text-mono-data text-on-surface-variant">2023-10-24 09:15</td>
+<td class="p-md">
+<p class="font-body-compact text-body-compact font-medium text-on-background">Hydraulic fluid flush and filter replacement</p>
+<p class="text-sm text-outline mt-1">Carriage Undercarriage Assembly</p>
+</td>
+<td class="p-md font-mono-data text-mono-data text-on-surface-variant">TRN-902</td>
+<td class="p-md">
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-secondary/10 text-secondary font-label-caps text-[11px] uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Completed
+                                    </span>
+</td>
+<td class="p-md text-right">
+<button class="text-outline hover:text-primary opacity-0 group-hover:opacity-100 transition-opacity"><span class="material-symbols-outlined text-[18px]">open_in_new</span></button>
+</td>
+</tr>
+<tr class="border-b border-outline-variant/10 hover:bg-surface-container-low transition-colors group">
+<td class="p-md font-mono-data text-mono-data text-on-surface-variant">2023-10-23 14:30</td>
+<td class="p-md">
+<p class="font-body-compact text-body-compact font-medium text-on-background">Sensor recalibration (Acoustic Array 4)</p>
+<p class="text-sm text-outline mt-1">Diagnostic Bay C</p>
+</td>
+<td class="p-md font-mono-data text-mono-data text-on-surface-variant">SYS-NET</td>
+<td class="p-md">
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-secondary/10 text-secondary font-label-caps text-[11px] uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Completed
+                                    </span>
+</td>
+<td class="p-md text-right">
+<button class="text-outline hover:text-primary opacity-0 group-hover:opacity-100 transition-opacity"><span class="material-symbols-outlined text-[18px]">open_in_new</span></button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="p-md font-mono-data text-mono-data text-on-surface-variant">2023-10-22 18:45</td>
+<td class="p-md">
+<p class="font-body-compact text-body-compact font-medium text-on-background">Emergency track weld inspection</p>
+<p class="text-sm text-outline mt-1">Milepost 442.8</p>
+</td>
+<td class="p-md font-mono-data text-mono-data text-on-surface-variant">N/A</td>
+<td class="p-md">
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-surface-container-high text-on-surface font-label-caps text-[11px] uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span> Pending Review
+                                    </span>
+</td>
+<td class="p-md text-right">
+<button class="text-outline hover:text-primary opacity-0 group-hover:opacity-100 transition-opacity"><span class="material-symbols-outlined text-[18px]">open_in_new</span></button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</main>
+</div>
+</body></html>
