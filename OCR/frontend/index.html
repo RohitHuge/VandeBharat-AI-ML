@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Train Number OCR</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">🚆 Train Number OCR</div>
+    <span class="badge">GPU · PaddleOCR v3</span>
+  </header>
+
+  <main>
+
+    <!-- Mode tabs -->
+    <div class="tabs">
+      <button class="tab active" data-tab="image">Image</button>
+      <button class="tab" data-tab="video">Video</button>
+    </div>
+
+    <!-- Image panel -->
+    <section id="panel-image" class="panel active">
+      <div class="drop-zone" id="image-drop">
+        <div class="drop-icon">🖼️</div>
+        <p>Drag & drop an image here</p>
+        <p class="sub">or</p>
+        <label class="btn-upload">
+          Choose File
+          <input type="file" id="image-input" accept="image/*" hidden />
+        </label>
+        <p class="hint">JPG · PNG · WebP · BMP</p>
+      </div>
+      <div id="image-preview-wrap" class="preview-wrap hidden">
+        <img id="image-preview" alt="preview" />
+      </div>
+    </section>
+
+    <!-- Video panel -->
+    <section id="panel-video" class="panel hidden">
+      <div class="drop-zone" id="video-drop">
+        <div class="drop-icon">🎬</div>
+        <p>Drag & drop a video here</p>
+        <p class="sub">or</p>
+        <label class="btn-upload">
+          Choose File
+          <input type="file" id="video-input" accept="video/*" hidden />
+        </label>
+        <p class="hint">MP4 · AVI · MOV</p>
+      </div>
+
+      <div id="video-options" class="options-row hidden">
+        <label>Frame skip
+          <input type="number" id="frame-skip" value="5" min="1" max="30" />
+        </label>
+        <label>Vote threshold
+          <input type="number" id="vote-threshold" value="5" min="1" max="30" />
+        </label>
+      </div>
+    </section>
+
+    <!-- Run button -->
+    <button id="btn-run" class="btn-run hidden">Run OCR</button>
+
+    <!-- Result area -->
+    <section id="result" class="hidden">
+
+      <div id="result-number" class="result-number">
+        <span class="label">Detected Train Number</span>
+        <span id="number-display" class="number">—</span>
+      </div>
+
+      <div id="detections-wrap" class="detections-wrap">
+        <h3>All Detections</h3>
+        <table id="detections-table">
+          <thead>
+            <tr><th>#</th><th>Text</th><th>Confidence</th><th>Match</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div id="votes-wrap" class="votes-wrap hidden">
+        <h3>Vote Table</h3>
+        <table id="votes-table">
+          <thead><tr><th>Number</th><th>Votes</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <p id="video-stats" class="video-stats"></p>
+      </div>
+
+    </section>
+
+    <!-- Spinner -->
+    <div id="spinner" class="spinner hidden">
+      <div class="spinner-ring"></div>
+      <p id="spinner-msg">Running OCR…</p>
+    </div>
+
+    <!-- Error -->
+    <div id="error-box" class="error-box hidden"></div>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
