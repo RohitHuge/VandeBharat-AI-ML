@@ -11,24 +11,40 @@
     <div class="container">
         <header>
             <div class="logo">🚆 Vande Bharat OCR</div>
-            <h1>Latency Comparison Tool</h1>
+            <h1>Performance Benchmarking</h1>
             <p>Comparing Legacy (Full OCR) vs Optimized (YOLOv8 + Cropping)</p>
         </header>
 
-        <section class="upload-section">
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="image">Image Benchmark</button>
+            <button class="tab-btn" data-tab="video">Video Benchmark</button>
+        </div>
+
+        <section id="image-tab" class="tab-content active">
             <div class="upload-card">
-                <input type="file" id="file-input" hidden accept="image/*">
-                <label for="file-input" class="upload-btn">
-                    <span class="icon">📁</span>
-                    <span>Upload Image for Benchmark</span>
+                <input type="file" id="image-input" hidden accept="image/*">
+                <label for="image-input" class="upload-btn">
+                    <span class="icon">🖼️</span>
+                    <span>Upload Image to Benchmark</span>
                 </label>
-                <p class="hint">Upload a frame from the train sequence</p>
+                <p class="hint">Benchmarks latency for a single frame</p>
+            </div>
+        </section>
+
+        <section id="video-tab" class="tab-content">
+            <div class="upload-card">
+                <input type="file" id="video-input" hidden accept="video/*">
+                <label for="video-input" class="upload-btn secondary">
+                    <span class="icon">🎬</span>
+                    <span>Upload Video to Benchmark</span>
+                </label>
+                <p class="hint">Benchmarks average latency across multiple frames</p>
             </div>
         </section>
 
         <div id="loader" class="loader-wrap hidden">
             <div class="spinner"></div>
-            <p>Benchmarking methods...</p>
+            <p id="loader-msg">Benchmarking methods...</p>
         </div>
 
         <section class="comparison-grid" id="comparison-results" style="display: none;">
@@ -37,7 +53,7 @@
                 <div class="method-header">
                     <div class="method-info">
                         <h3>Method 1</h3>
-                        <p>Legacy Full-Image OCR</p>
+                        <p id="m1-desc">Legacy Full-Image OCR</p>
                     </div>
                     <span class="badge">Legacy</span>
                 </div>
@@ -52,14 +68,11 @@
                     </div>
                 </div>
 
-                <div class="result-box">
-                    <label>Detected Number</label>
-                    <div id="m1-best" class="best-result">--</div>
-                </div>
-
-                <div class="text-log">
-                    <label>Extracted Text Snippets</label>
-                    <div id="m1-all" class="text-list"></div>
+                <div id="image-only-results-1">
+                    <div class="result-box">
+                        <label>Detected Number</label>
+                        <div id="m1-best" class="best-result">--</div>
+                    </div>
                 </div>
             </div>
 
@@ -68,7 +81,7 @@
                 <div class="method-header">
                     <div class="method-info">
                         <h3>Method 2</h3>
-                        <p>YOLOv8 + Targeted OCR</p>
+                        <p id="m2-desc">YOLOv8 + Targeted OCR</p>
                     </div>
                     <span class="badge success">Optimized</span>
                 </div>
@@ -94,14 +107,11 @@
                     </div>
                 </div>
 
-                <div class="result-box">
-                    <label>Detected Number</label>
-                    <div id="m2-best" class="best-result highlight">--</div>
-                </div>
-
-                <div class="text-log">
-                    <label>Extracted Text Snippets</label>
-                    <div id="m2-all" class="text-list"></div>
+                <div id="image-only-results-2">
+                    <div class="result-box">
+                        <label>Detected Number</label>
+                        <div id="m2-best" class="best-result highlight">--</div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -111,7 +121,7 @@
                 <div class="saving-icon">⚡</div>
                 <div class="saving-details">
                     <h3>Performance Gain</h3>
-                    <p>Method 2 is <strong id="time-saved">0 ms</strong> faster than Method 1</p>
+                    <p>Method 2 is <strong id="time-saved">0 ms</strong> faster per frame</p>
                 </div>
                 <div class="saving-percent" id="percent-saved">0% faster</div>
             </div>
