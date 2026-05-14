@@ -1,133 +1,84 @@
 #!/usr/bin/env python3
 """
-train.py — Entry point for Vande Bharat Railway Inspection Model training.
+train.py — Entry point for Vande Bharat Railway Inspection OCR Model training.
+This script has been updated to be self-contained and run specifically for the OCR dataset.
 
 Quick start:
     python train.py                                          # defaults
-    python train.py --config configs/config.yaml \\
-                    --data   configs/data.yaml   \\
-                    --freeze 10                             # freeze backbone
-    python train.py --resume runs/vande_bharat/railway_inspection_v1/weights/last.pt
-
-Architecture guide (set model.variant in config.yaml):
-    yolov8n  — 3.2 M params  — edge / RPi
-    yolov8s  — 11 M params   — Jetson Nano
-    yolov8m  — 25 M params   — Jetson Orin / desktop GPU
-    yolov8l  — 43 M params   — server GPU  (RTX 3090+)
-    yolov8x  — 68 M params   — best accuracy (recommended for this task)
-    yolov9e  — 58 M params   — alternative; strong small-object detection
+    python train.py --epochs 50                              # override epochs
 """
 import argparse
 import sys
-from pathlib import Path
-
+import os
+import yaml
 from ultralytics import YOLO
-
-from src.models.model_factory import ModelFactory
-from src.training.trainer import InspectionTrainer
-from src.utils.helpers import (
-    check_gpu_memory,
-    load_config,
-    set_seed,
-    setup_logging,
-)
-
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
-        description="Train the Vande Bharat Railway Inspection model"
+        description="Train the Vande Bharat Railway Inspection OCR model"
     )
-    p.add_argument("--config", default="configs/config.yaml", help="Master config YAML")
-    p.add_argument("--data",   default="configs/data.yaml",   help="Dataset YAML (YOLO format)")
-    p.add_argument("--resume", default=None,   help="Checkpoint path to resume from")
-    p.add_argument("--freeze", type=int, default=0,
-                   help="Freeze first N backbone layer groups (0 = none, 10 = typical)")
+    p.add_argument("--config", default="config.yaml", help="Master config YAML")
+    p.add_argument("--data",   default="OCR FRAMES.yolov8/data.yaml",   help="Dataset YAML (YOLO format)")
     p.add_argument("--epochs", type=int, default=None,
                    help="Number of training epochs (overrides config.yaml)")
-    p.add_argument("--seed",   type=int, default=42)
     p.add_argument("--device", default=None, help="Override device: cuda | cpu | 0 | 1")
-    p.add_argument("--hpo",    action="store_true",
-                   help="Run Optuna hyperparameter search before final training")
-    p.add_argument("--hpo-trials", type=int, default=20)
     return p.parse_args()
 
+def load_config(path: str) -> dict:
+    if not os.path.exists(path):
+        print(f"Warning: Config file {path} not found. Using defaults.")
+        return {}
+    with open(path, 'r') as f:
+        return yaml.safe_load(f)
 
 def main():
-    args   = parse_args()
+    args = parse_args()
     config = load_config(args.config)
 
-    log_dir = Path(config["logging"]["save_dir"]) / config["logging"]["project"]
-    logger  = setup_logging(str(log_dir))
+    # Resolve settings
+    epochs = args.epochs or config.get("training", {}).get("epochs", 100)
+    device = args.device or config.get("inference", {}).get("device", "")
+    img_size = config.get("data", {}).get("img_size", 640)
+    batch_size = config.get("data", {}).get("batch_size", 8)
+    
+    variant = config.get("model", {}).get("variant", "yolov8n")
+    model_name = f"{variant}.pt"
 
-    set_seed(args.seed)
+    print(f"Starting OCR training with model: {model_name}")
+    print(f"Dataset: {args.data}")
+    print(f"Epochs: {epochs}")
+    print(f"Image Size: {img_size}")
+    print(f"Batch Size: {batch_size}")
 
-    if args.epochs:
-        config["training"]["epochs"] = args.epochs
+    # Initialize model
+    model = YOLO(model_name)
 
-    if args.device:
-        config["inference"]["device"] = args.device
+    # Train
+    kwargs = {
+        "data": args.data,
+        "epochs": epochs,
+        "imgsz": img_size,
+        "batch": batch_size,
+        "workers": config.get("data", {}).get("num_workers", 0),  # Fix Windows paging file issue
+        "project": config.get("logging", {}).get("project", "runs"),
+        "name": config.get("logging", {}).get("run_name", "ocr_inspection_v1"),
+        "exist_ok": False
+    }
+    
+    if device:
+        kwargs["device"] = device
 
-    gpu = check_gpu_memory()
-    if gpu:
-        logger.info(
-            f"GPU: {gpu.get('name','?')}  |  "
-            f"Total {gpu['total_gb']:.1f} GB  |  "
-            f"Free {gpu['free_gb']:.1f} GB"
-        )
-    else:
-        logger.warning("No GPU detected — training on CPU (slow!)")
+    print("--- Training ---")
+    results = model.train(**kwargs)
 
-    trainer = InspectionTrainer(config)
-
-    # ── Create / load model ─────────────────────────────────────
-    model = ModelFactory.create(
-        architecture=config["model"].get("variant", "yolov8x"),
-        pretrained=config["model"].get("pretrained", True),
-        num_classes=len(config["data"]["class_names"]),
-        resume=args.resume,
-    )
-
-    info = ModelFactory.get_info(model)
-    logger.info(
-        f"Model: {config['model'].get('variant')}  |  "
-        f"{info['total_params']:,} params  |  "
-        f"{info['model_size_mb']:.1f} MB"
-    )
-
-    # ── Optional HPO ────────────────────────────────────────────
-    if args.hpo:
-        logger.info("Starting hyperparameter optimisation ...")
-        best_hps = trainer.hyperparameter_search(
-            model, args.data, n_trials=args.hpo_trials
-        )
-        logger.info(f"Best HPs: {best_hps}")
-        # Apply best HPs to config
-        config["training"].update(best_hps)
-
-    # ── Train ───────────────────────────────────────────────────
-    result = trainer.train(
-        model, args.data,
-        resume=bool(args.resume),
-        freeze_layers=args.freeze,
-    )
-
-    # ── Final validation on best checkpoint ─────────────────────
-    logger.info("Running validation on best checkpoint ...")
-    val_model = YOLO(result["best_weights"])
-    metrics   = trainer.validate(val_model, args.data)
-
-    logger.info("=" * 60)
-    logger.info("TRAINING COMPLETE")
-    logger.info(f"  mAP@0.5      : {metrics['mAP50']:.4f}")
-    logger.info(f"  mAP@0.5:0.95 : {metrics['mAP50-95']:.4f}")
-    logger.info(f"  Precision    : {metrics['precision']:.4f}")
-    logger.info(f"  Recall       : {metrics['recall']:.4f}")
-    logger.info(f"  Best weights : {result['best_weights']}")
-    logger.info(f"  Time elapsed : {result['elapsed_sec']/3600:.2f} h")
-    logger.info("=" * 60)
+    print("=" * 60)
+    print("TRAINING COMPLETE")
+    print(f"Results saved to: {results.save_dir}")
+    print("=" * 60)
 
     return 0
 
-
 if __name__ == "__main__":
+    # Ensure working directory is correct
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
     sys.exit(main())
