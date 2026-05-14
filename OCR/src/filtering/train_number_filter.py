@@ -4,7 +4,7 @@ import re
 TRAIN_PATTERN = re.compile(r"^\d{5,6}$")
 
 # Minimum OCR confidence to accept a candidate
-CONFIDENCE_THRESHOLD = 0.85
+CONFIDENCE_THRESHOLD = 0.50
 
 
 def filter_train_numbers(ocr_results):
@@ -14,10 +14,11 @@ def filter_train_numbers(ocr_results):
         text = item["text"]
         confidence = item["confidence"]
 
-        # Strip spaces that PaddleOCR sometimes inserts mid-number
-        cleaned = text.replace(" ", "").strip()
+        # Extract only digits from the text
+        cleaned = "".join(re.findall(r"\d+", text))
 
-        if TRAIN_PATTERN.match(cleaned) and confidence >= CONFIDENCE_THRESHOLD:
+        # Indian train numbers are usually 5 digits, sometimes 6
+        if len(cleaned) >= 5 and len(cleaned) <= 10 and confidence >= CONFIDENCE_THRESHOLD:
             candidates.append(cleaned)
 
     return candidates

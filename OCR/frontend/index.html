@@ -1,133 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vande Bharat Railway OCR - Latency Comparison</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <div class="logo">🚆 Vande Bharat OCR</div>
-            <h1>Performance Benchmarking</h1>
-            <p>Comparing Legacy (Full OCR) vs Optimized (YOLOv8 + Cropping)</p>
-        </header>
-
-        <div class="tabs">
-            <button class="tab-btn active" data-tab="image">Image Benchmark</button>
-            <button class="tab-btn" data-tab="video">Video Benchmark</button>
-        </div>
-
-        <section id="image-tab" class="tab-content active">
-            <div class="upload-card">
-                <input type="file" id="image-input" hidden accept="image/*">
-                <label for="image-input" class="upload-btn">
-                    <span class="icon">🖼️</span>
-                    <span>Upload Image to Benchmark</span>
-                </label>
-                <p class="hint">Benchmarks latency for a single frame</p>
-            </div>
-        </section>
-
-        <section id="video-tab" class="tab-content">
-            <div class="upload-card">
-                <input type="file" id="video-input" hidden accept="video/*">
-                <label for="video-input" class="upload-btn secondary">
-                    <span class="icon">🎬</span>
-                    <span>Upload Video to Benchmark</span>
-                </label>
-                <p class="hint">Benchmarks average latency across multiple frames</p>
-            </div>
-        </section>
-
-        <div id="loader" class="loader-wrap hidden">
-            <div class="spinner"></div>
-            <p id="loader-msg">Benchmarking methods...</p>
-        </div>
-
-        <section class="comparison-grid" id="comparison-results" style="display: none;">
-            <!-- Method 1 Card -->
-            <div class="method-card legacy">
-                <div class="method-header">
-                    <div class="method-info">
-                        <h3>Method 1</h3>
-                        <p id="m1-desc">Legacy Full-Image OCR</p>
-                    </div>
-                    <span class="badge">Legacy</span>
-                </div>
-                
-                <div class="latency-display">
-                    <div class="total-time">
-                        <span id="m1-total" class="ms-value">0</span>
-                        <span class="ms-unit">ms</span>
-                    </div>
-                    <div class="time-bar-wrap">
-                        <div class="time-bar legacy" style="width: 100%"></div>
-                    </div>
-                </div>
-
-                <div id="image-only-results-1">
-                    <div class="result-box">
-                        <label>Detected Number</label>
-                        <div id="m1-best" class="best-result">--</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Method 2 Card -->
-            <div class="method-card optimized">
-                <div class="method-header">
-                    <div class="method-info">
-                        <h3>Method 2</h3>
-                        <p id="m2-desc">YOLOv8 + Targeted OCR</p>
-                    </div>
-                    <span class="badge success">Optimized</span>
-                </div>
-
-                <div class="latency-display">
-                    <div class="total-time">
-                        <span id="m2-total" class="ms-value">0</span>
-                        <span class="ms-unit">ms</span>
-                    </div>
-                    <div class="time-bar-wrap">
-                        <div id="m2-bar" class="time-bar optimized" style="width: 0%"></div>
-                    </div>
-                </div>
-
-                <div class="breakdown-grid">
-                    <div class="breakdown-item">
-                        <label>YOLOv8 Detect</label>
-                        <span id="m2-det">0 ms</span>
-                    </div>
-                    <div class="breakdown-item">
-                        <label>Targeted OCR</label>
-                        <span id="m2-ocr">0 ms</span>
-                    </div>
-                </div>
-
-                <div id="image-only-results-2">
-                    <div class="result-box">
-                        <label>Detected Number</label>
-                        <div id="m2-best" class="best-result highlight">--</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="saving-summary" class="summary-section" style="display: none;">
-            <div class="saving-card">
-                <div class="saving-icon">⚡</div>
-                <div class="saving-details">
-                    <h3>Performance Gain</h3>
-                    <p>Method 2 is <strong id="time-saved">0 ms</strong> faster per frame</p>
-                </div>
-                <div class="saving-percent" id="percent-saved">0% faster</div>
-            </div>
-        </section>
-    </div>
-
-    <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vande Bharat | OCR Benchmark</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

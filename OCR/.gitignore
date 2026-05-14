@@ -31,3 +31,9 @@ data/outputs/*
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Node / Frontend
+node_modules/
+dist/
+.eslintcache
+.vite/
