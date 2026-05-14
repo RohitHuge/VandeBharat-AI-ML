@@ -3,6 +3,8 @@ venv/
 .venv/
 env/
 
+data/
+
 # PaddleOCR downloaded models cache
 ~/.paddleocr/
 inference/

@@ -957,7 +957,7 @@ with open("results.json", "w") as f:
 │  └── Annotated image/video                                      │
 └─────────────────────────────────────────────────────────────────┘
 ```
-
+venv\Scripts\pip install paddlepaddle-gpu==3.0.0rc1 -i https://www.paddlepaddle.org.cn/packages/stable/cu123/
 ---
 
 ## Class Reference

@@ -45,7 +45,17 @@
       "PowerShell(Rename-Item *)",
       "Bash(Get-ChildItem -Path \"E:\\\\PROJECTS\\\\VandeBharat\\\\POC\" -Recurse -Force)",
       "Bash(Get-ChildItem -Path \"E:\\\\PROJECTS\\\\VandeBharat\\\\POC\\\\ui\\\\src\" -Recurse -File)",
-      "Bash(Sort-Object FullName)"
+      "Bash(Sort-Object FullName)",
+      "Bash(Get-ChildItem -Recurse)",
+      "Bash(Get-ChildItem)",
+      "Bash(E:\\\\Python310\\\\python.exe *)",
+      "PowerShell(& \"E:\\\\Python310\\\\python.exe\" -c \"import ultralytics; print\\('ultralytics:', ultralytics.__version__\\)\" 2>&1)",
+      "PowerShell(& \"E:\\\\Python310\\\\python.exe\" -c \"import flask, flask_cors, requests; print\\('flask OK'\\)\" 2>&1)",
+      "PowerShell(& \"E:\\\\Python310\\\\python.exe\" -c \"import requests; print\\('requests:', requests.__version__\\)\" 2>&1)",
+      "PowerShell(& \"E:\\\\Python310\\\\python.exe\" -c \"from ultralytics import YOLO; m = YOLO\\('E:/PROJECTS/VandeBharat/POC/backend/models/best.pt'\\); print\\(m.names\\)\" 2>&1)",
+      "Bash(Get-ChildItem *)",
+      "Bash(xargs wc -l)",
+      "PowerShell(& \"E:\\\\PROJECTS\\\\VandeBharat\\\\POC\\\\backend\\\\OCR\\\\venv\\\\Scripts\\\\pip.exe\" show paddlepaddle-gpu 2>&1)"
     ]
   }
 }
