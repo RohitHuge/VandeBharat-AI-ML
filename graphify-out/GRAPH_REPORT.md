@@ -1,7 +1,7 @@
 # Graph Report - VandeBharat  (2026-05-20)
 
 ## Corpus Check
-- 174 files · ~2,313,445 words
+- 176 files · ~2,320,638 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `31dee9b6`
+- Built from commit: `9239b660`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -454,8 +454,8 @@ Cohesion: 0.10
 Nodes (19): 🏛️ 1. Architecture Overview: Split-Process GPU Microservices, 1. `POC/package.json`, 🧠 2. Deep Dive: New OCR Pipeline Features, 2. `POC/backend/OCR/server.py`, 📂 3. Files & Changes Map, 3. `POC/backend/OCR/src/ocr/ocr_engine.py`, 🚀 4. How to Run the POC System, 4. `POC/backend/OCR/src/filtering/train_number_filter.py` (+11 more)
 
 ### Community 65 - "Community 65"
-Cohesion: 0.10
-Nodes (20): code:block41 (❌ Labels folder not found, skipping), code:block42 (⚠️ Not in final classes: unknown_class), code:block43 (Metrics after training:), code:block44 (RuntimeError: CUDA out of memory), code:block46 (Processing: 30 minutes for 1-minute video), code:python (# Use faster model variant), code:block48 (Detections found: 5), code:python (import pandas as pd) (+12 more)
+Cohesion: 0.11
+Nodes (17): code:block39 (FileNotFoundError: path/to/dataset not found), code:python (from google.colab import drive), code:block41 (❌ Labels folder not found, skipping), code:block42 (⚠️ Not in final classes: unknown_class), code:block43 (Metrics after training:), code:block44 (RuntimeError: CUDA out of memory), code:block46 (Processing: 30 minutes for 1-minute video), code:python (# Use faster model variant) (+9 more)
 
 ### Community 66 - "Community 66"
 Cohesion: 0.10
@@ -794,8 +794,8 @@ Cohesion: 0.67
 Nodes (3): code:text (Report generated successfully.), code:text (Synchronization completed.), TOASTS (MANDATORY)
 
 ### Community 206 - "Community 206"
-Cohesion: 0.67
-Nodes (3): code:block39 (FileNotFoundError: path/to/dataset not found), code:python (from google.colab import drive), **Issue 1: Google Drive Not Mounted**
+Cohesion: 0.33
+Nodes (6): code:python (import pandas as pd), code:python (import matplotlib.pyplot as plt), code:python (import os), code:python (# Use training image to verify model works), Debugging Tips, Troubleshooting
 
 ## Ambiguous Edges - Review These
 - `Multi-Step Workflow State Machine` → `TopNavBar Layout Component`  [AMBIGUOUS]
@@ -804,7 +804,7 @@ Nodes (3): code:block39 (FileNotFoundError: path/to/dataset not found), code:pyt
   POC/ui/src/pages/Detection/index.jsx · relation: references
 
 ## Knowledge Gaps
-- **1013 isolated node(s):** `allow`, `dev`, `build`, `lint`, `preview` (+1008 more)
+- **1013 isolated node(s):** `graphify`, `Workflow: graphify`, `allow`, `dev`, `build` (+1008 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **124 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -815,13 +815,13 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **What is the exact relationship between `DETECTION_SEQUENCES Mock Data` and `Detection Page`?**
   _Edge tagged AMBIGUOUS (relation: references) - confidence is low._
-- **Why does `cn()` connect `Community 9` to `Community 61`, `Community 13`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **Why does `App()` connect `Community 16` to `Community 24`, `Community 9`, `Community 13`?**
   _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Are the 20 inferred relationships involving `cn()` (e.g. with `LiveTrainCard()` and `Accordion()`) actually correct?**
+- **Why does `cn()` connect `Community 9` to `Community 13`, `Community 61`?**
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **Are the 20 inferred relationships involving `cn()` (e.g. with `Badge()` and `Button()`) actually correct?**
   _`cn()` has 20 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `allow`, `dev`, `build` to the rest of the system?**
+- **What connects `graphify`, `Workflow: graphify`, `allow` to the rest of the system?**
   _1052 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.08994708994708994 - nodes in this community are weakly interconnected._
