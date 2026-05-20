@@ -1,0 +1,1 @@
+{"nodes": [{"id": "yolo_requirements", "label": "YOLO Service Requirements (ultralytics, flask, opencv-python)", "file_type": "code", "source_file": "POC/backend/YOLO/requirements.txt", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}

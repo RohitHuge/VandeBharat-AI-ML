@@ -1,0 +1,2342 @@
+{
+  "E:\\PROJECTS\\VandeBharat\\POC\\package.json": {
+    "mtime": 1779117265.6481526,
+    "ast_hash": "767ed5e36326d43b3c2e71f7c85b6b6e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\.claude\\settings.local.json": {
+    "mtime": 1778151861.874937,
+    "ast_hash": "0fc632b25299f6a1c32ef91314767fe5",
+    "semantic_hash": "0fc632b25299f6a1c32ef91314767fe5"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\inference.py": {
+    "mtime": 1779155955.3992953,
+    "ast_hash": "5a6da4fa74e3ddf0e994b442a04840f5",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\main.py": {
+    "mtime": 1778776638.2234042,
+    "ast_hash": "5d69c531f79943b77cc3b4eca8bd3b4f",
+    "semantic_hash": "5d69c531f79943b77cc3b4eca8bd3b4f"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\video_processor.py": {
+    "mtime": 1778076936.406179,
+    "ast_hash": "d2ee731a5fecf388576de6f89c44801a",
+    "semantic_hash": "d2ee731a5fecf388576de6f89c44801a"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\relabel_and_merge.py": {
+    "mtime": 1778076936.153511,
+    "ast_hash": "3b2d170aeb714ac2b9099e19c8b5be02",
+    "semantic_hash": "3b2d170aeb714ac2b9099e19c8b5be02"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\server.py": {
+    "mtime": 1779157898.9727533,
+    "ast_hash": "5f868b3602cc45244262f913eb14c19b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\__init__.py": {
+    "mtime": 1778077954.4775,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\capture\\video_reader.py": {
+    "mtime": 1778077961.9390917,
+    "ast_hash": "0800198b6c2e6c567fad1a65bcbab6f3",
+    "semantic_hash": "0800198b6c2e6c567fad1a65bcbab6f3"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\capture\\__init__.py": {
+    "mtime": 1778077954.67816,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\filtering\\train_number_filter.py": {
+    "mtime": 1779158884.8591025,
+    "ast_hash": "4de0d7a761f770774ca9601f68ff6697",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\filtering\\__init__.py": {
+    "mtime": 1778077956.0480506,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\ocr\\ocr_engine.py": {
+    "mtime": 1779158397.4456906,
+    "ast_hash": "e4749eccc84ce0d1ad1e157d2f44e730",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\ocr\\__init__.py": {
+    "mtime": 1778077955.6882668,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\preprocess\\preprocess.py": {
+    "mtime": 1778077965.8557298,
+    "ast_hash": "bb74dbe852c141b90cd3715edeb846ab",
+    "semantic_hash": "bb74dbe852c141b90cd3715edeb846ab"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\preprocess\\__init__.py": {
+    "mtime": 1778077955.293787,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\voting\\vote_manager.py": {
+    "mtime": 1778077974.8004775,
+    "ast_hash": "b245d31bba797740db25d24c70822ffe",
+    "semantic_hash": "b245d31bba797740db25d24c70822ffe"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\src\\voting\\__init__.py": {
+    "mtime": 1778077956.3129494,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\YOLO\\server.py": {
+    "mtime": 1779155912.227015,
+    "ast_hash": "46f70cf348c7a9c3a48225ee9c707328",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\eslint.config.js": {
+    "mtime": 1778076936.946318,
+    "ast_hash": "fa91453358b56681481f75f81d1bfccd",
+    "semantic_hash": "fa91453358b56681481f75f81d1bfccd"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\package.json": {
+    "mtime": 1778076936.9526887,
+    "ast_hash": "9abfeac4290cdbb67efef2a957c43892",
+    "semantic_hash": "9abfeac4290cdbb67efef2a957c43892"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\vite.config.js": {
+    "mtime": 1778076937.4578476,
+    "ast_hash": "4de893a206a1dbda29e0a82447be51c2",
+    "semantic_hash": "4de893a206a1dbda29e0a82447be51c2"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\App.jsx": {
+    "mtime": 1778202385.0540266,
+    "ast_hash": "17d6d471fc659b4d2b37c94e52dd7d35",
+    "semantic_hash": "17d6d471fc659b4d2b37c94e52dd7d35"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\main.jsx": {
+    "mtime": 1778091332.157728,
+    "ast_hash": "081e5eab1dd14ccaaded419c24bd3812",
+    "semantic_hash": "081e5eab1dd14ccaaded419c24bd3812"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\DetectionOverlay.jsx": {
+    "mtime": 1778076937.4486735,
+    "ast_hash": "294e831c6bdf6827be728a5a4f2cbb55",
+    "semantic_hash": "294e831c6bdf6827be728a5a4f2cbb55"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\DetectionSidebar.jsx": {
+    "mtime": 1778076937.4497855,
+    "ast_hash": "5c448a506c07981be31559fc4069c4f8",
+    "semantic_hash": "5c448a506c07981be31559fc4069c4f8"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\Header.jsx": {
+    "mtime": 1778076937.4503713,
+    "ast_hash": "51bdac37faeba0a1dbd34c841a40fc87",
+    "semantic_hash": "51bdac37faeba0a1dbd34c841a40fc87"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\OCRPanel.jsx": {
+    "mtime": 1779156468.6912427,
+    "ast_hash": "cdf1d6f70456ff66b32e549381f7ec36",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\SummaryModal.jsx": {
+    "mtime": 1778076937.451902,
+    "ast_hash": "5c345364053927e7d3808e23941502d6",
+    "semantic_hash": "5c345364053927e7d3808e23941502d6"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\Timeline.jsx": {
+    "mtime": 1778076937.451902,
+    "ast_hash": "1a03dc0cc0e8d42cb7a5bc4b05e88330",
+    "semantic_hash": "1a03dc0cc0e8d42cb7a5bc4b05e88330"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\VideoPanel.jsx": {
+    "mtime": 1778076937.4534216,
+    "ast_hash": "efb59fbe672abadb8a633edcfba2573c",
+    "semantic_hash": "efb59fbe672abadb8a633edcfba2573c"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\common\\Button.jsx": {
+    "mtime": 1778089671.4350822,
+    "ast_hash": "2107b0cf79759c71b383091d013412f3",
+    "semantic_hash": "2107b0cf79759c71b383091d013412f3"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\common\\Card.jsx": {
+    "mtime": 1778089677.8620937,
+    "ast_hash": "a82133b55ebd260b4c665274cf52fa71",
+    "semantic_hash": "a82133b55ebd260b4c665274cf52fa71"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\common\\Input.jsx": {
+    "mtime": 1778089691.8326745,
+    "ast_hash": "6bb1ca3c8bb5ee11d5a86e986d9056a0",
+    "semantic_hash": "6bb1ca3c8bb5ee11d5a86e986d9056a0"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\common\\ProgressBar.jsx": {
+    "mtime": 1778089704.9866805,
+    "ast_hash": "7e8bdbcadd29e0b790157e8b805997d8",
+    "semantic_hash": "7e8bdbcadd29e0b790157e8b805997d8"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\common\\Select.jsx": {
+    "mtime": 1778089698.5418954,
+    "ast_hash": "19c94dcfb4dee88ab832be7fbddd9f7e",
+    "semantic_hash": "19c94dcfb4dee88ab832be7fbddd9f7e"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\common\\StatusChip.jsx": {
+    "mtime": 1778089685.390638,
+    "ast_hash": "8e61c4f482a467bfae9b7a69487547a2",
+    "semantic_hash": "8e61c4f482a467bfae9b7a69487547a2"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\layout\\AppShell.jsx": {
+    "mtime": 1778089752.071028,
+    "ast_hash": "aa5688c32b5e59d42c8d7cb206197ec7",
+    "semantic_hash": "aa5688c32b5e59d42c8d7cb206197ec7"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\layout\\TopNavBar.jsx": {
+    "mtime": 1778089738.668713,
+    "ast_hash": "840d469a4715b4956a05f162a8a29a65",
+    "semantic_hash": "840d469a4715b4956a05f162a8a29a65"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\components\\layout\\WorkflowFooter.jsx": {
+    "mtime": 1778202475.7796535,
+    "ast_hash": "5debdaa2892b4cb6ecc745a5a0e34627",
+    "semantic_hash": "5debdaa2892b4cb6ecc745a5a0e34627"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\context\\ToastContext.jsx": {
+    "mtime": 1778091328.2228894,
+    "ast_hash": "1ffde509dcdce9681816a3c260f9eff0",
+    "semantic_hash": "1ffde509dcdce9681816a3c260f9eff0"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\data\\mockDetections.js": {
+    "mtime": 1778076937.4544406,
+    "ast_hash": "8772f4b4966765d78f88ac5354c2160f",
+    "semantic_hash": "8772f4b4966765d78f88ac5354c2160f"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\hooks\\useDetectionStream.js": {
+    "mtime": 1778775772.962716,
+    "ast_hash": "30ea88bafd4c7b793ef50d3f06354314",
+    "semantic_hash": "30ea88bafd4c7b793ef50d3f06354314"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\Detection\\AnalysisDetailDrawer.jsx": {
+    "mtime": 1778156747.7997618,
+    "ast_hash": "d6f0f4bf73afa19cf81cec55543e4bee",
+    "semantic_hash": "d6f0f4bf73afa19cf81cec55543e4bee"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\Detection\\index.jsx": {
+    "mtime": 1778778033.2323341,
+    "ast_hash": "b0f88226c9e9cb6721f9598e8df52490",
+    "semantic_hash": "b0f88226c9e9cb6721f9598e8df52490"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\Detection\\ResultCard.jsx": {
+    "mtime": 1778156739.569065,
+    "ast_hash": "3532764444201f833df1e66fb26caa3c",
+    "semantic_hash": "3532764444201f833df1e66fb26caa3c"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\InspectionOutput\\DetectionLogTable.jsx": {
+    "mtime": 1778223703.1200943,
+    "ast_hash": "d886331db7c6c455fa18b416184ada2f",
+    "semantic_hash": "d886331db7c6c455fa18b416184ada2f"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\InspectionOutput\\DetectionPreview.jsx": {
+    "mtime": 1778089986.789436,
+    "ast_hash": "d2d43cac708e6f99b4feaafa8260e0e2",
+    "semantic_hash": "d2d43cac708e6f99b4feaafa8260e0e2"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\InspectionOutput\\index.jsx": {
+    "mtime": 1778222948.0626366,
+    "ast_hash": "d266017b20d281a648fe3524f7ba33af",
+    "semantic_hash": "d266017b20d281a648fe3524f7ba33af"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\InspectionOutput\\JsonViewer.jsx": {
+    "mtime": 1778089976.8583055,
+    "ast_hash": "bf1eb7a9311311a088078c2fe4ed9d8d",
+    "semantic_hash": "bf1eb7a9311311a088078c2fe4ed9d8d"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\InspectionOutput\\KPICard.jsx": {
+    "mtime": 1778089961.3476782,
+    "ast_hash": "47115e28a945775b5cc26a5cf5adfab4",
+    "semantic_hash": "47115e28a945775b5cc26a5cf5adfab4"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\TrainNumberOCR\\index.jsx": {
+    "mtime": 1778203010.8334415,
+    "ast_hash": "9c47edacb120b5c76cc9a9fb7017d4c7",
+    "semantic_hash": "9c47edacb120b5c76cc9a9fb7017d4c7"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\VideoFraming\\FrameCard.jsx": {
+    "mtime": 1778089816.1008759,
+    "ast_hash": "68e4b63480bbe33eb0207757efc22021",
+    "semantic_hash": "68e4b63480bbe33eb0207757efc22021"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\VideoFraming\\FrameDetailDrawer.jsx": {
+    "mtime": 1778091386.7756326,
+    "ast_hash": "df418387745582051a6787861837cfd8",
+    "semantic_hash": "df418387745582051a6787861837cfd8"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\pages\\VideoFraming\\index.jsx": {
+    "mtime": 1778158506.1213472,
+    "ast_hash": "4c3c0bf834ebc957804180ca42ea5d91",
+    "semantic_hash": "4c3c0bf834ebc957804180ca42ea5d91"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\APPROACH.md": {
+    "mtime": 1778076936.0833359,
+    "ast_hash": "6c7a0451aad82b4d5baad427651ac608",
+    "semantic_hash": "6c7a0451aad82b4d5baad427651ac608"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\INSTALL.md": {
+    "mtime": 1778203556.8431113,
+    "ast_hash": "8204b1903dc1a9ddc875fbfb55579ebe",
+    "semantic_hash": "8204b1903dc1a9ddc875fbfb55579ebe"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\README.md": {
+    "mtime": 1778076936.1452174,
+    "ast_hash": "a985436c96c3c1809e395fd6c05eb9aa",
+    "semantic_hash": "a985436c96c3c1809e395fd6c05eb9aa"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\RUN.md": {
+    "mtime": 1778776648.053598,
+    "ast_hash": "881aabe8952c65a115e57801b80fb910",
+    "semantic_hash": "881aabe8952c65a115e57801b80fb910"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\train_detection_poc_approach_md.md": {
+    "mtime": 1778076936.406179,
+    "ast_hash": "9ac2635b5944c8e0da24cb390aee8352",
+    "semantic_hash": "9ac2635b5944c8e0da24cb390aee8352"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\requirements.txt": {
+    "mtime": 1779117256.0471964,
+    "ast_hash": "b0bd483066c817983fb65fad3ee15bf6",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data-1.yaml": {
+    "mtime": 1778076936.153511,
+    "ast_hash": "a1f7a9a517d003c9193b33a91c2e9cac",
+    "semantic_hash": "a1f7a9a517d003c9193b33a91c2e9cac"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data-2.yaml": {
+    "mtime": 1778076936.1542873,
+    "ast_hash": "a247324310643a8db57f4c430f4ad561",
+    "semantic_hash": "a247324310643a8db57f4c430f4ad561"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data-3.yaml": {
+    "mtime": 1778076936.1553009,
+    "ast_hash": "a02c334ee3da23915bcb9d82543c3f69",
+    "semantic_hash": "a02c334ee3da23915bcb9d82543c3f69"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data-4.yaml": {
+    "mtime": 1778076936.1553009,
+    "ast_hash": "a67ff67529055731a11fb3bbbbe3462c",
+    "semantic_hash": "a67ff67529055731a11fb3bbbbe3462c"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data-5.yaml": {
+    "mtime": 1778076936.1563115,
+    "ast_hash": "04cc3319b0e2ca75c56b8dcd8878acac",
+    "semantic_hash": "04cc3319b0e2ca75c56b8dcd8878acac"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data-6.yaml": {
+    "mtime": 1778076936.1563115,
+    "ast_hash": "b499dbd56ae4eb19cee1d0b2e1c752f5",
+    "semantic_hash": "b499dbd56ae4eb19cee1d0b2e1c752f5"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data-7.yaml": {
+    "mtime": 1778076936.1573207,
+    "ast_hash": "5249be7b0dd5c9f45242251309827a5b",
+    "semantic_hash": "5249be7b0dd5c9f45242251309827a5b"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data-8.yaml": {
+    "mtime": 1778076936.1573207,
+    "ast_hash": "809fcf5527fc175bd53e9d2d3641dfb5",
+    "semantic_hash": "809fcf5527fc175bd53e9d2d3641dfb5"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data-combined-defects.yaml": {
+    "mtime": 1778076936.1573207,
+    "ast_hash": "646cf067a8687f3331d02f8b72a6c6bf",
+    "semantic_hash": "646cf067a8687f3331d02f8b72a6c6bf"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data-combined.yaml": {
+    "mtime": 1778076936.1573207,
+    "ast_hash": "d6c4367df0f59a0d8d9333df8301889a",
+    "semantic_hash": "d6c4367df0f59a0d8d9333df8301889a"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\models\\yml files\\data.yaml": {
+    "mtime": 1778076936.1587403,
+    "ast_hash": "20a5565679bbab3fa59c0cac01c4dde8",
+    "semantic_hash": "20a5565679bbab3fa59c0cac01c4dde8"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\requirements.txt": {
+    "mtime": 1779123499.904222,
+    "ast_hash": "31c439fa09167af0dae21ee69e8f9dc4",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\YOLO\\requirements.txt": {
+    "mtime": 1778203431.5779164,
+    "ast_hash": "a673774174d87a847e86b9fe56ab807c",
+    "semantic_hash": "a673774174d87a847e86b9fe56ab807c"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\index.html": {
+    "mtime": 1778090325.7192295,
+    "ast_hash": "78d77add7280dac7e0c6239c41cd9a3e",
+    "semantic_hash": "78d77add7280dac7e0c6239c41cd9a3e"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\progress.md": {
+    "mtime": 1778090068.79046,
+    "ast_hash": "3a3d6ff05c7e0022817d3a49707623e6",
+    "semantic_hash": "3a3d6ff05c7e0022817d3a49707623e6"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\README.md": {
+    "mtime": 1778076936.4076903,
+    "ast_hash": "abfa161e3e5434e3e85394bf03d387a4",
+    "semantic_hash": "abfa161e3e5434e3e85394bf03d387a4"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\stitch\\component_defect_detection_workspace\\code.html": {
+    "mtime": 1778068826.0,
+    "ast_hash": "b38c723a13c997521250a6749d856cdd",
+    "semantic_hash": "b38c723a13c997521250a6749d856cdd"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\stitch\\industrial_logic\\DESIGN.md": {
+    "mtime": 1778068826.0,
+    "ast_hash": "5f1444a016d4443947535a83c5acf794",
+    "semantic_hash": "5f1444a016d4443947535a83c5acf794"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\stitch\\structured_inspection_output_workspace\\code.html": {
+    "mtime": 1778068826.0,
+    "ast_hash": "ff0a672c165abb0d382358b03515dd6d",
+    "semantic_hash": "ff0a672c165abb0d382358b03515dd6d"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\stitch\\video_framing_module_workspace\\code.html": {
+    "mtime": 1778068826.0,
+    "ast_hash": "6fc80525176bb5cb7d72687d05fec276",
+    "semantic_hash": "6fc80525176bb5cb7d72687d05fec276"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\Development of Machine Vision Inspection System (MVIS) for Rolling Stock Defects (1).pdf": {
+    "mtime": 1778076936.139604,
+    "ast_hash": "c02bc9c927638f97e88d2134103ad02f",
+    "semantic_hash": "c02bc9c927638f97e88d2134103ad02f"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\Final  Draft Specification of MVIS 08.06.2020.pdf": {
+    "mtime": 1778076936.143138,
+    "ast_hash": "18faa501258e42c6d019972a08fc052d",
+    "semantic_hash": "18faa501258e42c6d019972a08fc052d"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\WhatsApp Image 2026-05-06 at 6.38.37 PM.jpeg": {
+    "mtime": 1778076936.1508613,
+    "ast_hash": "8548b9f7701e7e3722fe4e6ffc536be2",
+    "semantic_hash": "8548b9f7701e7e3722fe4e6ffc536be2"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\public\\favicon.svg": {
+    "mtime": 1778076937.4396262,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": "7e840862161341271697daa99a40d76b"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\public\\icons.svg": {
+    "mtime": 1778076937.441145,
+    "ast_hash": "21c7473c592c67dc87223d49892c8f0a",
+    "semantic_hash": "21c7473c592c67dc87223d49892c8f0a"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\public\\extra_frames\\roboflow-annotated-2026-05-08T07-51-25.png": {
+    "mtime": 1778778033.2041135,
+    "ast_hash": "82f339545c8535abba649b94dfb7c966",
+    "semantic_hash": "82f339545c8535abba649b94dfb7c966"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\public\\extra_frames\\roboflow-annotated-2026-05-08T08-00-44.png": {
+    "mtime": 1778778033.215872,
+    "ast_hash": "757d17695461014699b0575c81ed0019",
+    "semantic_hash": "757d17695461014699b0575c81ed0019"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\public\\extra_frames\\roboflow-annotated-2026-05-08T08-22-12.png": {
+    "mtime": 1778778033.2313542,
+    "ast_hash": "6625081c2ad9955166a24e86717689d4",
+    "semantic_hash": "6625081c2ad9955166a24e86717689d4"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\assets\\hero.png": {
+    "mtime": 1778076937.4447982,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": "aead493361b27e7510691c5d7072dfc1"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\assets\\react.svg": {
+    "mtime": 1778076937.4453144,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": "f0402b67b6ce880f65666bb49e841696"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\src\\assets\\vite.svg": {
+    "mtime": 1778076937.4468606,
+    "ast_hash": "6d5180a782d64c8cf51ba01c2a2184d8",
+    "semantic_hash": "6d5180a782d64c8cf51ba01c2a2184d8"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\stitch\\component_defect_detection_workspace\\screen.png": {
+    "mtime": 1778068826.0,
+    "ast_hash": "368f9030f3fe503807219374285cd432",
+    "semantic_hash": "368f9030f3fe503807219374285cd432"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\stitch\\structured_inspection_output_workspace\\screen.png": {
+    "mtime": 1778068826.0,
+    "ast_hash": "e2b66c67a93f2eb8e03d222fa06847e5",
+    "semantic_hash": "e2b66c67a93f2eb8e03d222fa06847e5"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\stitch\\video_framing_module_workspace\\screen.png": {
+    "mtime": 1778068826.0,
+    "ast_hash": "1b8822790c13915c4436789e02d9943b",
+    "semantic_hash": "1b8822790c13915c4436789e02d9943b"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\Video Project 22.mp4": {
+    "mtime": 1778155516.594452,
+    "ast_hash": "2ec6b39d0be75780f67052c6690c8800",
+    "semantic_hash": "2ec6b39d0be75780f67052c6690c8800"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\Video_2.mp4": {
+    "mtime": 1778076936.933956,
+    "ast_hash": "3ea0551c0be1b06dee1f5cec42f3ba5f",
+    "semantic_hash": "3ea0551c0be1b06dee1f5cec42f3ba5f"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\WhatsApp Video 2026-05-07 at 10.15.06 PM.mp4": {
+    "mtime": 1778200238.5497723,
+    "ast_hash": "359c91f35a476fe61cf12c99c5922de7",
+    "semantic_hash": "359c91f35a476fe61cf12c99c5922de7"
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\ui\\public\\Video_2.mp4": {
+    "mtime": 1778076937.4316037,
+    "ast_hash": "3ea0551c0be1b06dee1f5cec42f3ba5f",
+    "semantic_hash": "3ea0551c0be1b06dee1f5cec42f3ba5f"
+  },
+  "E:\\PROJECTS\\VandeBharat\\train.py": {
+    "mtime": 1777721591.5667927,
+    "ast_hash": "be114f70477b0bf87b332dcccb7d1d63",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\.claude\\settings.local.json": {
+    "mtime": 1779113229.6015584,
+    "ast_hash": "138b1adb8400a8a498691728a9360cb8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\eslint.config.js": {
+    "mtime": 1777045050.505908,
+    "ast_hash": "3aa4b57d7f08181d86bde52a4dcb7f22",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\package.json": {
+    "mtime": 1777999643.4161773,
+    "ast_hash": "642752c1bb3f3311df7bb39f964bedb8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\postcss.config.js": {
+    "mtime": 1777999574.4168892,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\tailwind.config.js": {
+    "mtime": 1778000223.0211403,
+    "ast_hash": "2568395cac59e8719d2689377eb097cd",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\vite.config.js": {
+    "mtime": 1778001251.6252131,
+    "ast_hash": "fbe7eee4c04505aa4287ff5a12e39f0d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\App.jsx": {
+    "mtime": 1778000436.672176,
+    "ast_hash": "72bee48cb6d640c67bfd3ed6a915c09d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\main.jsx": {
+    "mtime": 1777045050.563505,
+    "ast_hash": "e13723e2574429d9a6d849727e3ff695",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\components\\layout\\MainLayout.jsx": {
+    "mtime": 1778000421.9147859,
+    "ast_hash": "7acae823e65a269cc8dd99bbff5c2b8a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\components\\layout\\SideNavBar.jsx": {
+    "mtime": 1778001791.0569346,
+    "ast_hash": "ec6a9d0db96af603b3558d22a94d4ea6",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\components\\layout\\TopNavBar.jsx": {
+    "mtime": 1778001536.7149582,
+    "ast_hash": "6e9566dbd1925cbfeff33e7ab18d2776",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\components\\shared\\StatCard.jsx": {
+    "mtime": 1778000554.917198,
+    "ast_hash": "c5e2d98ecf65d48b0a2f8d1abf83be51",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\components\\ui\\Badge.jsx": {
+    "mtime": 1778000288.7200365,
+    "ast_hash": "254944b938eb8399bfc6585179677919",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\components\\ui\\Button.jsx": {
+    "mtime": 1778000286.710073,
+    "ast_hash": "5a48fed0c4e9db8e3b47e48fad47be61",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\components\\ui\\Card.jsx": {
+    "mtime": 1778000284.695498,
+    "ast_hash": "e84abe0063baabfc1611d3760641818b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\components\\ui\\DataTable.jsx": {
+    "mtime": 1778001900.735399,
+    "ast_hash": "498d033b832ba42cac68c116db3c4a52",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\components\\ui\\InputField.jsx": {
+    "mtime": 1778000290.7342727,
+    "ast_hash": "a794b25793ba8406b853a55ee13101bb",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\pages\\Dashboard\\index.jsx": {
+    "mtime": 1778000514.0217142,
+    "ast_hash": "1f6e3ff61e29d83b54efe6d2cd7dce31",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\pages\\DefectLogs\\index.jsx": {
+    "mtime": 1778001789.225193,
+    "ast_hash": "7a13efc7a38e774f2ce2ff5b4f7d8692",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\pages\\Maintenance\\index.jsx": {
+    "mtime": 1778000642.2094283,
+    "ast_hash": "35c66784d05d651d1f76143b22a49b5c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\pages\\Overview\\index.jsx": {
+    "mtime": 1778001358.4287963,
+    "ast_hash": "c14e113968d9f457293712b664e6c6ba",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\pages\\TrackAnalysis\\index.jsx": {
+    "mtime": 1778000651.777659,
+    "ast_hash": "99b31aedd8b9f0f245baa1e178205832",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frames.py": {
+    "mtime": 1778688905.7748098,
+    "ast_hash": "4e8d41586e5f2691afd79ed75c99cd83",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\main.py": {
+    "mtime": 1778071303.1460874,
+    "ast_hash": "3dad4bd5a57811f8c11a8bf632c7ea64",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\package.json": {
+    "mtime": 1778743075.9059982,
+    "ast_hash": "5d6163530fc0b5bf30799d4ef1e3f940",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\server.py": {
+    "mtime": 1778777472.4324205,
+    "ast_hash": "9e853059bb17686cb1fe383afa6a502b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\split_dataset.py": {
+    "mtime": 1778726931.2474432,
+    "ast_hash": "bc10fe79b98863dea262e58452adc136",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\test_ocr.py": {
+    "mtime": 1778074963.1433334,
+    "ast_hash": "3f811431f38baad2a56d164e03e3fa45",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\test_on_image.py": {
+    "mtime": 1778071316.9878829,
+    "ast_hash": "2028f84d92e983ccd4be23087d857bb3",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\train.py": {
+    "mtime": 1778728923.4429538,
+    "ast_hash": "6e7073085e7bf5987018584696aff885",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\eslint.config.js": {
+    "mtime": 1778721221.4401817,
+    "ast_hash": "3aa4b57d7f08181d86bde52a4dcb7f22",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\package.json": {
+    "mtime": 1778743299.0007052,
+    "ast_hash": "f5cb40aa887e6cd54654869d30fd3803",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\postcss.config.js": {
+    "mtime": 1778743305.2774806,
+    "ast_hash": "e982c2c626930cc50626fdb699902290",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\tailwind.config.js": {
+    "mtime": 1778742700.7000835,
+    "ast_hash": "ddea9ff66db171962633a5e42c0eedee",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\vite.config.js": {
+    "mtime": 1778721221.4562771,
+    "ast_hash": "88439104b3c207f17d33ef3160e3b080",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\src\\App.jsx": {
+    "mtime": 1778777476.370921,
+    "ast_hash": "ec012d5674b86202b63ba570713bfe8d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\src\\main.jsx": {
+    "mtime": 1778742818.4202645,
+    "ast_hash": "54a301507dcdfccf4e5565754374b5dc",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\src\\components\\layout\\AppShell.jsx": {
+    "mtime": 1778743961.9586682,
+    "ast_hash": "1966f897ac2421a999ab96a13395ff5c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\src\\components\\pipeline\\PipelineProgress.jsx": {
+    "mtime": 1778742751.7181883,
+    "ast_hash": "14bf6916690b6b44ced7913c24f998e0",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\__init__.py": {
+    "mtime": 1778071272.964845,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\capture\\video_reader.py": {
+    "mtime": 1778071280.7148225,
+    "ast_hash": "0800198b6c2e6c567fad1a65bcbab6f3",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\capture\\__init__.py": {
+    "mtime": 1778071273.338625,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\filtering\\train_number_filter.py": {
+    "mtime": 1778744415.5121372,
+    "ast_hash": "b199611b764b37da20c6d4e3add53b06",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\filtering\\__init__.py": {
+    "mtime": 1778071274.4347875,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\ocr\\ocr_engine.py": {
+    "mtime": 1778776485.4568627,
+    "ast_hash": "9a385d683b623d115a531180d42a4739",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\ocr\\__init__.py": {
+    "mtime": 1778071274.1389492,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\preprocess\\preprocess.py": {
+    "mtime": 1778745190.3503726,
+    "ast_hash": "f2d629451ef289529d5523be467a912b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\preprocess\\__init__.py": {
+    "mtime": 1778071273.7438276,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\voting\\vote_manager.py": {
+    "mtime": 1778071292.7603667,
+    "ast_hash": "b245d31bba797740db25d24c70822ffe",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\src\\voting\\__init__.py": {
+    "mtime": 1778071274.9126804,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\AFTER_TRAINING_GUIDE.md": {
+    "mtime": 1777729400.6471379,
+    "ast_hash": "4e95cd63c4096e84c794487bd9c2e451",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\config.yaml": {
+    "mtime": 1777721554.4788754,
+    "ast_hash": "4868a551f137cdffad348584cede9123",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\NOTEBOOK_VS_TRAINPY_VISUAL.md": {
+    "mtime": 1777656473.4636433,
+    "ast_hash": "021f375961268c2188eee7ee02035ef8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\PYTHON_MIGRATION_GUIDE.md": {
+    "mtime": 1777723228.4197838,
+    "ast_hash": "6477fc7270d8fbc4308a7d6b9234160c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\QUICK_START_TRAINPY.md": {
+    "mtime": 1777656428.2143037,
+    "ast_hash": "6bccdeab863b276ce3db05c4899c8efe",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\TRAINING_READY.md": {
+    "mtime": 1777728028.5011704,
+    "ast_hash": "c828d700782f5c14074002d6f39a602e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\TRAINING_SETUP.md": {
+    "mtime": 1777721612.716354,
+    "ast_hash": "61d795bbbc7238766f60243b3abd8287",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\TRAIN_PY_GUIDE.md": {
+    "mtime": 1777656406.2854793,
+    "ast_hash": "3fbf9704ca7480363924b4e0191714bc",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\working.md": {
+    "mtime": 1778208403.8084888,
+    "ast_hash": "60614d61781284c00a74d66d429b5d5e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\.agents\\rules\\graphify.md": {
+    "mtime": 1779113826.7301419,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\.agents\\workflows\\graphify.md": {
+    "mtime": 1779113826.7311637,
+    "ast_hash": "84de69efd46ab0b8430393bd4188f8f2",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\configs\\config.yaml": {
+    "mtime": 1777721557.6656444,
+    "ast_hash": "4868a551f137cdffad348584cede9123",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\configs\\data.yaml": {
+    "mtime": 1777728159.2783675,
+    "ast_hash": "ba372f041d418cbe2d025f789102b267",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\index.html": {
+    "mtime": 1778001326.289725,
+    "ast_hash": "e51e4cd46fb79483307d47e017b6087e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\progress.md": {
+    "mtime": 1778000661.6721287,
+    "ast_hash": "a9999b0447a1e5ac4463ec364c68bfdb",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\README.md": {
+    "mtime": 1777045050.5680418,
+    "ast_hash": "a28dc4cb878325f3e9e5649f3e1469ac",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\ai_railway_inspection_system_dashboard\\code.html": {
+    "mtime": 1777979382.0,
+    "ast_hash": "606e07db6e4c0bdf6de13947b8dcc571",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\defect_logs_ai_railway_inspection_system\\code.html": {
+    "mtime": 1777979382.0,
+    "ast_hash": "cc55e07a5f2b5130b5ffb8d5a7b33ad5",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\industrial_intelligence_system\\DESIGN.md": {
+    "mtime": 1777979382.0,
+    "ast_hash": "8d07e282e5d71fab43dd3bf666695930",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\maintenance_management_ai_railway_inspection_system\\code.html": {
+    "mtime": 1777979382.0,
+    "ast_hash": "c9075bf3707c2f6270718edbc6e88c7d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\overview_dashboard_ai_railway_inspection_system\\code.html": {
+    "mtime": 1777979382.0,
+    "ast_hash": "83c7432107fa66c61868e9dcafe39048",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\track_analysis_ai_railway_inspection_system\\code.html": {
+    "mtime": 1777979382.0,
+    "ast_hash": "44f670012302822b18a8f1e4578d7700",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\config.yaml": {
+    "mtime": 1778728925.4615862,
+    "ast_hash": "8ffed929b4361a1c8ae12e047952793a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\ocr_data.yaml": {
+    "mtime": 1778726945.194501,
+    "ast_hash": "3ea0dfd823d7c0180a80f6360539bb9b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\progress.md": {
+    "mtime": 1778742877.5924225,
+    "ast_hash": "c3c199edc23bc974f1d603b016961397",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\requirements.txt": {
+    "mtime": 1778738710.1721406,
+    "ast_hash": "3a93559ac9b3b7b500aedb5afd7e7f22",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\setup.md": {
+    "mtime": 1778071327.9502146,
+    "ast_hash": "d52ef5de6596511d1efd385a7d26711c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\single_file_train_number_ocr_phase_5_detailed_implementation.md": {
+    "mtime": 1778070832.3074565,
+    "ast_hash": "4ae3e053bce04e324b153fa04f69a07c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\index.html": {
+    "mtime": 1778742841.6547797,
+    "ast_hash": "442ccb988d9695a65edf5f6c6fa5f349",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\README.md": {
+    "mtime": 1778721221.519111,
+    "ast_hash": "a28dc4cb878325f3e9e5649f3e1469ac",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\data.yaml": {
+    "mtime": 1778727689.931694,
+    "ast_hash": "42cec01b6466d5cf3fd0edf0720c81ee",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\README.roboflow.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "214e5177917c3d21a7649ad9bfa19cbd",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\ChatGPT Image May 13, 2026, 12_08_22 AM_png.rf.wNuUxtOMiU5O5vB8P1mS.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "925e6d9e0362abc1820806bec1be5155",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\frame_00108_jpg.rf.iX19t9WPBiIFvbZJqJuj.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "e03489e0e928126107afe6f71ba28362",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\frame_00109_jpg.rf.T6bOoab6GkwKjU3Bk4RL.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "a1a8197ec73ca875baa5b74270aab319",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\frame_00111_jpg.rf.qNec577CRmvz14KwhCRa.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "5331fe413be35d019eb217c863af3c13",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\frame_00114_jpg.rf.qfDQDwVxj8ZFgDETl5ur.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "85885cb0a29fd09c5e102babd9b48dfe",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\frame_00116_jpg.rf.cnJxPm8D5EPjuEwkWsdm.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "909e9d9e35397fdb18346e19a194c99b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\frame_00118_jpg.rf.o1CFKh99bLLE5YBAaWfv.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "21a20bb12588cd2ffb7bad8dbc745573",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\frame_00119_jpg.rf.yPWIMTKUosLdXRDYRiWr.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "d9b42d3d1ee659834633e7e567a14003",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\frame_00120_jpg.rf.ryFDwgnpyCcLpWsWrZPj.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "73fd1596df1b93adb7940e319f5863a2",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\frame_00121_jpg.rf.48Ru3FExAevCuvuhaWX4.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "890d08486955a48726dbacd5bcc7161f",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\frame_00123_jpg.rf.ApHwL6bKg0YfKmQQOvD0.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "6c512c82332304f73abbd34da58d2ffc",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00028_png.rf.m8EV3WfLjM4Ybn2nYSra.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "5d396b773223eebb01d4effdfbdaaa9a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00033_png.rf.VrU41sOQ3tJ5lJGQmVi3.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "a1fe0bfc59fdc89c2d108d7c650968d8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00034_png.rf.TuhLkwCKcKn9CGBdVAGi.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "441c0bd05d1bb89f5d0334eb61bdc573",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00037_png.rf.PznAf1gQZ5cfKfS5SWAu.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "1f9f77b85c9630729efdbf80bb97d527",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00045_png.rf.dR9B2A0evmenxWh2LqXa.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "04e81b05f47da03e05e1bdca17d78e9f",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00048_png.rf.SUbBh4MOAGo0fKxqUNq2.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "318c207356cc86e8efdac9de8e976109",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00050_png.rf.PWIA75UhcMcOJoO9yWWo.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "7209d36589f539256b7d1f7c2a114842",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00054_png.rf.jt6YWKHpq5yD5nL1zrTv.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "334b09b96290cdafac12d8b3995e4ad2",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00056_png.rf.W68ue8k5uWZXEJPXw5YU.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "2e50bece81d717faf1828e4d64676e99",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00059_png.rf.BkFrDyAUfJkBhzYgd92e.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "d595e1c77edfaad9867be7f650ade248",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00062_png.rf.MWKhZPBbJUhSrUS6R2Hu.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "f0125d6e8f019a421e7e1f76ee7097b9",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00068_png.rf.EaV7113aUfesYt7QDThS.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "dabdfb955d3da94ce7d866d104d37c2e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00071_png.rf.6QpCU7HOQ05vo7dxWjhv.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "cfae4f7779b9daaf708341895e282a67",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00074_png.rf.UFqst5Yjm2dyunAnJPTh.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "f295bb9eccf1331542e2500a44b46d11",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00077_png.rf.4bKhnDVvbEluQkXzgCe1.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "28da5000a5f94ac364f5442427079261",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00080_png.rf.0MUFXi6OzTrAWofM0QQc.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "dff54e461636c8c4905036af6b6b9830",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00085_png.rf.2pJAAbGSbwHsV4p2JLVv.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "3f650ecd9a69906aaf4a465dbfdc5544",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00035_png.rf.vZksVpF1AYgqrqWNX4iR.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "adaa12e288a4fcf3f650fc0d295e7dd1",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00036_png.rf.eBI1GNkpPZHZz9iVtD00.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "f46246a60a266ec5ee6d6573d29759ee",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00038_png.rf.BZRy1yBnoWc1NWgtzZ1f.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "2f25e483ddc97719a93d364a26244c4b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00040_png.rf.8i5o4DW0ojUw2JmWXOto.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "34327e6ce5014b556e9bbac1f1461311",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00041_png.rf.81zOR12eqz6Zx7R3yo0G.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "f84cc6eb1896413b704555ac183aee33",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00048_png.rf.7jvsjokV4jRvVE5CaKH8.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "53e372fd46d61ced33ad240d7cc128cd",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00049_png.rf.yT5j7HOOQHOjJK8kLKOV.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "116655917ad7e836d055e448bf0097e6",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00050_png.rf.JoFvXZ6rC7tDZzU0w5sy.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "a2455b6ebd38d41518bfbfa3d619bda4",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00059_png.rf.va8i7gXiaTJpiD1NMNk3.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "7a45b15fceb58ed92fdc1de7ca656326",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00060_png.rf.jzbCOSMKac27xsjhQeyL.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "7378ea1f26f60785f56eb47bf5d40185",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00063_png.rf.NGKCMFyx6BTqbSux9qFq.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "10dd6d00168d4f41e81388b4eac3c94e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00087_png.rf.6eDknu2pwWxO2jjcCLqJ.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "c90ec9f4cc5e5f62fd643f3a37e9dc08",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00101_png.rf.qCgV2cPMylA4D5sUHi78.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "4f8d6d0990f35b839f8e406298fe246f",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00102_png.rf.dPvTASfSTwLkdFyvPwEa.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "7483bb29a87514447afbfce90de1351b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00118_png.rf.4ZzoxDBFYJ6F4dxZB9MM.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "e13743959da594dbf22fbdc8256c8d5b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00131_png.rf.JKfElWrHOR7pnDNMboq0.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "0918d9346ea1785621882284e0bac82d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00143_png.rf.wiLAv3SbqKWQctTfkv26.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "5d566df065788ebe136741f401fbe6f8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00144_png.rf.EFURE1gdPEnmKZO20GFO.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "3257a28dda80828c9aa70ac2ca5e01af",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00145_png.rf.Fxwer1j2H9CY0OTww06v.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "769fb0a5f852fcabceceaa8478e26f97",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00156_png.rf.yGYUByDtxqJ9r5YjubXg.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "2669f887c580376d6f2a607b6df5e43a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00173_png.rf.KG4on2vfzqeUnZpJ1nPd.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "e85c082411dd5d38df5aa176c7d353fc",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00198_png.rf.FMzNkJMx2EryS4qEygeJ.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "6f3420c3af2afd03abe65725c46b7937",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00199_png.rf.zxD8u2cS7K1P4nsQbJA0.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "38359b4defff8f555ce4088d731c32c0",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00211_png.rf.JmSRw1roZ5BegAOr2jk3.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "774406bb27cf06b1cd9ced420d2274d3",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00225_png.rf.2xsGhi0Bex75NVRgkVS0.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "57c7610ae2e64b4a795f6b7b09828635",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\frame_00110_jpg.rf.bU69oC0aFVF6QMIXClib.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "e66eaaec23d4d816dd3f0a33ec33d02d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\frame_00112_jpg.rf.hOZOeggvWOyWk2OEnRd4.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "80c5602c03976566fe1583eddb42d320",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\frame_00113_jpg.rf.j8zBmR2lBpiXN5QDjFgF.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "3b43bf38ff2a27a0e9364ac226ea7258",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\frame_00115_jpg.rf.v7azxuRpt35JBW7PxaNI.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "6e9a6f5619113812c85509facecd9895",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\frame_00122_jpg.rf.qxjJMhNmtZo8TmEqoA9U.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "de8b121ffa56e35694ae5a7d954ec9eb",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00065_png.rf.JZqvaacg6xpjr84wsqn7.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "60a2bf291af59de6141d87782a323bb5",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00076_png.rf.rF6A7Jz7qimay5HhPKWK.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "605b58439aa5244ca9363784ff51b775",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00082_png.rf.YDpZR2H0EiWAeKiB3p06.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "861199b65fb083d3e26373f6a19e611e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00083_png.rf.WXQdSlOKpfpCJM8vrnwC.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "7b866bd0add63a59d71ea7b99c35de3b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00088_png.rf.FCTf2ABrISPODZulKyyX.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "126e5a9e232bc3c57aaa7f715b6c2498",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00042_png.rf.LScD0I3x0S3wCrl41mZv.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "8459e047040dcf7c353a8750b0f375eb",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00058_png.rf.7gwHpNoC4g63kSFX2wet.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "7ea1a33d3f438cd046e60254a74f8047",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00158_png.rf.dW65FT9M4XvU60igdVjf.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "2b1ca54819299348cd15630db22601ba",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\labels\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00227_png.rf.W8GOsIAMHsnANmZqacvm.txt": {
+    "mtime": 1778724917.0,
+    "ast_hash": "355e0eeee3ffe884297468df98ac1341",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\args.yaml": {
+    "mtime": 1778728217.2429187,
+    "ast_hash": "ee37ecc7f952b6fd28262fe2a970d881",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\args.yaml": {
+    "mtime": 1778728982.7814991,
+    "ast_hash": "79e6c81e1c40378c22eef75812532aff",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1\\args.yaml": {
+    "mtime": 1777728105.7038045,
+    "ast_hash": "40f92e167db4104f1c52d0ae5e35b844",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-2\\args.yaml": {
+    "mtime": 1777728134.6444979,
+    "ast_hash": "6a2e50a48344596b36673dc1c9e50aee",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-3\\args.yaml": {
+    "mtime": 1777728204.144374,
+    "ast_hash": "1d392ac27f121fec8f51a376246e491a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\args.yaml": {
+    "mtime": 1777730945.6214094,
+    "ast_hash": "c35c1fdbea5041ac65daa51ec848f690",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\public\\favicon.svg": {
+    "mtime": 1777045050.6159391,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\public\\icons.svg": {
+    "mtime": 1777045050.6355336,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\assets\\hero.png": {
+    "mtime": 1777045050.5879476,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\assets\\react.svg": {
+    "mtime": 1777045050.6516323,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\src\\assets\\vite.svg": {
+    "mtime": 1777045050.664964,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\ai_railway_inspection_system_dashboard\\screen.png": {
+    "mtime": 1777979382.0,
+    "ast_hash": "473f740c21d2e8f68fb2e5503ca6f397",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\defect_logs_ai_railway_inspection_system\\screen.png": {
+    "mtime": 1777979382.0,
+    "ast_hash": "8cd15a26d82ba25571a1d8418e8b4b0b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\maintenance_management_ai_railway_inspection_system\\screen.png": {
+    "mtime": 1777979382.0,
+    "ast_hash": "ac32565c2bb427b3bbb01461d6353a37",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\overview_dashboard_ai_railway_inspection_system\\screen.png": {
+    "mtime": 1777979382.0,
+    "ast_hash": "142d6fe27322adce947c59829f81284c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\frontend\\UI\\track_analysis_ai_railway_inspection_system\\screen.png": {
+    "mtime": 1777979382.0,
+    "ast_hash": "ac63b491501120b0d14586b0fc8ee94a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\public\\favicon.svg": {
+    "mtime": 1778721221.5771964,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\public\\icons.svg": {
+    "mtime": 1778721221.60824,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\src\\assets\\hero.png": {
+    "mtime": 1778721221.541916,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\src\\assets\\react.svg": {
+    "mtime": 1778721221.6325526,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\frontend\\src\\assets\\vite.svg": {
+    "mtime": 1778721221.6506822,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\ChatGPT Image May 13, 2026, 12_08_22 AM_png.rf.wNuUxtOMiU5O5vB8P1mS.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "fa5449fd4a67f73e844d1693b1712872",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\frame_00108_jpg.rf.iX19t9WPBiIFvbZJqJuj.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "0b63d276e6de81cc6be571ab3197a82a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\frame_00109_jpg.rf.T6bOoab6GkwKjU3Bk4RL.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "464224d51ea16dbe31b06a51bc5318a5",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\frame_00111_jpg.rf.qNec577CRmvz14KwhCRa.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "3197cecaebc05e6d6a4893134f92657e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\frame_00114_jpg.rf.qfDQDwVxj8ZFgDETl5ur.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "53128770d23c95e4fa147b7506b9be6d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\frame_00116_jpg.rf.cnJxPm8D5EPjuEwkWsdm.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "1566a39f0bb674e1a058cc48b3b22b02",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\frame_00118_jpg.rf.o1CFKh99bLLE5YBAaWfv.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "d85b972c17f303865cfe85941dab0443",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\frame_00119_jpg.rf.yPWIMTKUosLdXRDYRiWr.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "bd3dce4288449ff4812273f149186b81",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\frame_00120_jpg.rf.ryFDwgnpyCcLpWsWrZPj.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "3f4bcedcfded59ffc4e86fc7f096a50f",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\frame_00121_jpg.rf.48Ru3FExAevCuvuhaWX4.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "819159037e5d8ef7240b1e2257e59911",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\frame_00123_jpg.rf.ApHwL6bKg0YfKmQQOvD0.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "ea16d9eb5526fd1819bdb4629989fac6",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00028_png.rf.m8EV3WfLjM4Ybn2nYSra.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "82b165fa6519612c6c26c9901ec08c84",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00033_png.rf.VrU41sOQ3tJ5lJGQmVi3.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "a71d0420f635ac2de3bf73cb0d3aa5de",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00034_png.rf.TuhLkwCKcKn9CGBdVAGi.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "8c4aa4f61fde0afd54496fbcb01a94a9",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00037_png.rf.PznAf1gQZ5cfKfS5SWAu.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "189f0977bf56ce33eaa51c4e7f24a0eb",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00045_png.rf.dR9B2A0evmenxWh2LqXa.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "b76efccae9942308bad4e19a48614fb3",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00048_png.rf.SUbBh4MOAGo0fKxqUNq2.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "88b776b8c8fd62cb2a54ee864ec2cfee",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00050_png.rf.PWIA75UhcMcOJoO9yWWo.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "efe27033a8a8aa5f09920a2b859c9ba9",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00054_png.rf.jt6YWKHpq5yD5nL1zrTv.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "736a00cca31e630f6114e3cb005f0f34",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00056_png.rf.W68ue8k5uWZXEJPXw5YU.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "975d6328406ae7ffc44a8119fd011de8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00059_png.rf.BkFrDyAUfJkBhzYgd92e.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "b1a7f3bb9a3d5dfb064788655bf6a0a8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00062_png.rf.MWKhZPBbJUhSrUS6R2Hu.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "e9fa7768109326baf339f0af2cadebe9",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00068_png.rf.EaV7113aUfesYt7QDThS.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "01ec43bfe6948a5f271c4c08e3bfe645",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00071_png.rf.6QpCU7HOQ05vo7dxWjhv.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "70f159597f5fc7dd9e36227542291bec",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00074_png.rf.UFqst5Yjm2dyunAnJPTh.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "b858934ad173eed9ba83d8fc6aff694a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00077_png.rf.4bKhnDVvbEluQkXzgCe1.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "bc70dd2e21207dac20073afefd236aaf",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00080_png.rf.0MUFXi6OzTrAWofM0QQc.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "2dfa965abff490ea5de00657c0d3555c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00085_png.rf.2pJAAbGSbwHsV4p2JLVv.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "b726bf0d2c93d2ac09e7c581444db457",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00035_png.rf.vZksVpF1AYgqrqWNX4iR.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "441605f02f984b73942b5b7230c1ec5f",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00036_png.rf.eBI1GNkpPZHZz9iVtD00.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "adb72a5ef628f70414f976b0355e7884",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00038_png.rf.BZRy1yBnoWc1NWgtzZ1f.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "672c944f792bd9b0d38943acf7512653",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00040_png.rf.8i5o4DW0ojUw2JmWXOto.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "a5f5715b334b1d1e6985b2d127efac70",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00041_png.rf.81zOR12eqz6Zx7R3yo0G.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "ceb54e717e85ec1c48cf553ffe87c30a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00048_png.rf.7jvsjokV4jRvVE5CaKH8.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "e6a181e0edefcc818d23fd9ae83714a3",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00049_png.rf.yT5j7HOOQHOjJK8kLKOV.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "a31cf9ea1d9b323cd03b4845f02f604a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00050_png.rf.JoFvXZ6rC7tDZzU0w5sy.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "9cef4c733dea2f7548ee48dfa667edb8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00059_png.rf.va8i7gXiaTJpiD1NMNk3.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "cd0ecdeeb18243faf2d122ed854e6a16",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00060_png.rf.jzbCOSMKac27xsjhQeyL.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "2de4d8521ee4b8037b96c313f65d789a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00063_png.rf.NGKCMFyx6BTqbSux9qFq.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "ca918e731106390ca1d802d32b52d70d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00087_png.rf.6eDknu2pwWxO2jjcCLqJ.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "6e63fc1c50a5ed9312e6f41d09ecd331",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00101_png.rf.qCgV2cPMylA4D5sUHi78.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "a4237e1aa19789b225ae8bcec54fb2bf",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00102_png.rf.dPvTASfSTwLkdFyvPwEa.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "b15a41db299f5d8b16d5d9b5f510bd39",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00118_png.rf.4ZzoxDBFYJ6F4dxZB9MM.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "31d10fa4ac12ac3f72647de1b6db7821",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00131_png.rf.JKfElWrHOR7pnDNMboq0.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "d3f4147123821c861d51094fb9508651",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00143_png.rf.wiLAv3SbqKWQctTfkv26.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "873813790238db995bbfb81bc5f5aff8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00144_png.rf.EFURE1gdPEnmKZO20GFO.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "5d268be0be9920e51aa1db05072a9cc7",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00145_png.rf.Fxwer1j2H9CY0OTww06v.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "fe827afac6dec23fe24984814dd84840",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00156_png.rf.yGYUByDtxqJ9r5YjubXg.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "ff9f7adc5e49c060f41bea2c52c9f1d2",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00173_png.rf.KG4on2vfzqeUnZpJ1nPd.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "ec1e5f2910d4f3949bd35256fbbf8f54",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00198_png.rf.FMzNkJMx2EryS4qEygeJ.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "b1f29e11824d4f418424084019c3ca80",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00199_png.rf.zxD8u2cS7K1P4nsQbJA0.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "ded7dd0ca3ca198f3362c2c1ccdec768",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00211_png.rf.JmSRw1roZ5BegAOr2jk3.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "6aaaa779c59f969d390d6c5707684771",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\train\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00225_png.rf.2xsGhi0Bex75NVRgkVS0.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "957ddf6f46df3f9d2e374cfc29868a6c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\frame_00110_jpg.rf.bU69oC0aFVF6QMIXClib.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "e3a086b09acbdb9f5afd39a8c1339ccd",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\frame_00112_jpg.rf.hOZOeggvWOyWk2OEnRd4.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "e0af496a8717264cc475f84823dde346",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\frame_00113_jpg.rf.j8zBmR2lBpiXN5QDjFgF.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "c6cf431ce9a4e6e7f13c75ffd161996c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\frame_00115_jpg.rf.v7azxuRpt35JBW7PxaNI.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "e221b64c50cfa369777edfa1e8e11231",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\frame_00122_jpg.rf.qxjJMhNmtZo8TmEqoA9U.jpg": {
+    "mtime": 1778724916.0,
+    "ast_hash": "55c539fa52fbb0b5d466083133625d95",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00065_png.rf.JZqvaacg6xpjr84wsqn7.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "113fe3fc0eaa248fb6801639836d59e8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00076_png.rf.rF6A7Jz7qimay5HhPKWK.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "6d9fc9d0ef11fe7a2cf0c1bc66e06cdc",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00082_png.rf.YDpZR2H0EiWAeKiB3p06.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "09a427e21da001c124e1373174c74fa8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00083_png.rf.WXQdSlOKpfpCJM8vrnwC.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "62ed80e767db65490aed4d2b51694d62",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\Vande Bharat Express Slowly skipping Kasara Railway Station_idx00088_png.rf.FCTf2ABrISPODZulKyyX.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "90ad1360356fe8be92594c702af30fbd",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00042_png.rf.LScD0I3x0S3wCrl41mZv.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "0f3b1176c14905babaf796c1071d8307",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00058_png.rf.7gwHpNoC4g63kSFX2wet.png": {
+    "mtime": 1778724916.0,
+    "ast_hash": "35e3f93d594a381f279ddfcf0b4d1aa7",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00158_png.rf.dW65FT9M4XvU60igdVjf.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "1418dced8c4ad8be27502d717cae0b3d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\OCR FRAMES.yolov8\\val\\images\\vidssave-com ROLLING EXAMINATION OF And LHB TRAIN--RAILWAYMECHANICALINFO BY B-K-DUTTA - 480P_idx00227_png.rf.W8GOsIAMHsnANmZqacvm.png": {
+    "mtime": 1778724917.0,
+    "ast_hash": "4e8ba47433346c58c0dc8f006092d56a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\BoxF1_curve.png": {
+    "mtime": 1778728400.3068087,
+    "ast_hash": "3c223d88fa149dae791d833e4218f79a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\BoxPR_curve.png": {
+    "mtime": 1778728400.107769,
+    "ast_hash": "f44c38455a1479738e62ed3b76b54f9c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\BoxP_curve.png": {
+    "mtime": 1778728400.5017388,
+    "ast_hash": "b14650d4e02ba8fa0f237be875851f0a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\BoxR_curve.png": {
+    "mtime": 1778728400.670223,
+    "ast_hash": "4f6af139d6170f481d097bcfdc0bef4c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\confusion_matrix.png": {
+    "mtime": 1778728401.1762986,
+    "ast_hash": "5163364cc48c67d4d3943eeef5801215",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\confusion_matrix_normalized.png": {
+    "mtime": 1778728400.9255638,
+    "ast_hash": "88ef9f0c4de53a4b0adb66ef3a2a099c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\labels.jpg": {
+    "mtime": 1778728219.4868927,
+    "ast_hash": "944eec09700f2129d67b8c2cb50f3bdf",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\results.png": {
+    "mtime": 1778728402.1134617,
+    "ast_hash": "ccf7a5c6b25eb7a14b291393323bb307",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\train_batch0.jpg": {
+    "mtime": 1778728220.2664876,
+    "ast_hash": "f6aed16eca649e4dbd42f52a44b4b413",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\train_batch1.jpg": {
+    "mtime": 1778728220.5544746,
+    "ast_hash": "ac2253747d15c06b9dac1315621c5c3e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\train_batch2.jpg": {
+    "mtime": 1778728220.8338585,
+    "ast_hash": "8304629cfd26f54b3cc8ebb2ae3b0122",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\train_batch630.jpg": {
+    "mtime": 1778728382.8659587,
+    "ast_hash": "537da6293e54d9c6525e26042ef6258f",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\train_batch631.jpg": {
+    "mtime": 1778728383.0486534,
+    "ast_hash": "18fb83272cffde4313a4c1c860d25bbe",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\train_batch632.jpg": {
+    "mtime": 1778728383.228275,
+    "ast_hash": "47a622f2c571f649b904efcac96e23b3",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\val_batch0_labels.jpg": {
+    "mtime": 1778728400.0976994,
+    "ast_hash": "82a368da15338b703ffb7faa2f1251c4",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1\\val_batch0_pred.jpg": {
+    "mtime": 1778728400.1340203,
+    "ast_hash": "431a10f1108f90ebc8f6b9643c920333",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\BoxF1_curve.png": {
+    "mtime": 1778729250.5241232,
+    "ast_hash": "6dde1989c93424c7df0911565ff6dc73",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\BoxPR_curve.png": {
+    "mtime": 1778729250.3197317,
+    "ast_hash": "e04f70a1a4fc106e266ea6986f8797cf",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\BoxP_curve.png": {
+    "mtime": 1778729250.706792,
+    "ast_hash": "60894d3762b9ed7df8ba17baa9533520",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\BoxR_curve.png": {
+    "mtime": 1778729250.897621,
+    "ast_hash": "32d0ed1dc3ead9dcaf52751fe1b95b51",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\confusion_matrix.png": {
+    "mtime": 1778729251.5852215,
+    "ast_hash": "e85e47ad77a0d7ef0b3393a4d73a1e66",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\confusion_matrix_normalized.png": {
+    "mtime": 1778729251.159535,
+    "ast_hash": "b399bcadc058f8976d7616af62969e62",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\labels.jpg": {
+    "mtime": 1778728985.2407682,
+    "ast_hash": "944eec09700f2129d67b8c2cb50f3bdf",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\results.png": {
+    "mtime": 1778729252.53538,
+    "ast_hash": "1442d3cd06ea1671b93bb533bce271c4",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\train_batch0.jpg": {
+    "mtime": 1778728986.3859038,
+    "ast_hash": "d07cc4263e6ef83f0940791fca094305",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\train_batch1.jpg": {
+    "mtime": 1778728986.9655914,
+    "ast_hash": "42cb4502216b73b265306afcde0eedf3",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\train_batch2.jpg": {
+    "mtime": 1778728987.523723,
+    "ast_hash": "56f2ef97a08f57b27291bfd2104bf6f0",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\train_batch560.jpg": {
+    "mtime": 1778729234.0468183,
+    "ast_hash": "07bc171bb837d4a326bb2fa7e2830fe9",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\train_batch561.jpg": {
+    "mtime": 1778729234.3431711,
+    "ast_hash": "ad0179e62b824ebb738a367d23b8ff8c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\train_batch562.jpg": {
+    "mtime": 1778729234.6564229,
+    "ast_hash": "660dd3b34a3bb35f6ec96971c1499b54",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\val_batch0_labels.jpg": {
+    "mtime": 1778729250.2609668,
+    "ast_hash": "82a368da15338b703ffb7faa2f1251c4",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\runs\\detect\\runs\\railway_inspection_v1-2\\val_batch0_pred.jpg": {
+    "mtime": 1778729250.2543795,
+    "ast_hash": "92f29f09353cb5f947c52930e346a1e3",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\img1.jpg": {
+    "mtime": 1778073881.6538854,
+    "ast_hash": "5617326aec3c2e69474a33c1fea0139a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\img2.jpg": {
+    "mtime": 1778073900.2187672,
+    "ast_hash": "3f3bcc6bfa6b6468238fa920f7ff2063",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\img2_preprocessed.jpg": {
+    "mtime": 1778074368.2244368,
+    "ast_hash": "45dc110ddd2da0fde91ede227a3a2006",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\img3.webp": {
+    "mtime": 1778073968.6015396,
+    "ast_hash": "92a8df44bb01621afa49d7da5cdee411",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-3\\labels.jpg": {
+    "mtime": 1777728220.6979272,
+    "ast_hash": "4a55aa789d53fc4439d9925400b238ef",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-3\\train_batch0.jpg": {
+    "mtime": 1777728224.1741638,
+    "ast_hash": "b784df362e29f99e8ca0e81235d601f2",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-3\\train_batch1.jpg": {
+    "mtime": 1777728226.2917998,
+    "ast_hash": "cd1cfa93a4dfc350b40e20a8c3f7b89b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-3\\train_batch2.jpg": {
+    "mtime": 1777728228.6327777,
+    "ast_hash": "1301bbe829b5a87d119e881e15ceca19",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\BoxF1_curve.png": {
+    "mtime": 1777735899.3700724,
+    "ast_hash": "727f0178447ccfe32f2306e83b0e0354",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\BoxPR_curve.png": {
+    "mtime": 1777735899.122434,
+    "ast_hash": "bc9586779c579514e3c7539c870964e0",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\BoxP_curve.png": {
+    "mtime": 1777735899.6174052,
+    "ast_hash": "28ef3226797c95dcf59e1db7203320b0",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\BoxR_curve.png": {
+    "mtime": 1777735899.8526173,
+    "ast_hash": "7c4b47e79a2b6005bd0b53ff877af133",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\confusion_matrix.png": {
+    "mtime": 1777735900.788528,
+    "ast_hash": "7fb3a989e7cd785a66d298a70fe63882",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\confusion_matrix_normalized.png": {
+    "mtime": 1777735900.2669969,
+    "ast_hash": "f55463fe4fc42542b34e86af9cfd8740",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\labels.jpg": {
+    "mtime": 1777730949.286616,
+    "ast_hash": "4a55aa789d53fc4439d9925400b238ef",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\results.png": {
+    "mtime": 1777735903.432306,
+    "ast_hash": "bcd3dd6bd81cfd69a6c0ed7f0d3c8133",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\train_batch0.jpg": {
+    "mtime": 1777730952.2564511,
+    "ast_hash": "b784df362e29f99e8ca0e81235d601f2",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\train_batch1.jpg": {
+    "mtime": 1777730954.5989952,
+    "ast_hash": "cd1cfa93a4dfc350b40e20a8c3f7b89b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\train_batch2.jpg": {
+    "mtime": 1777730957.0582309,
+    "ast_hash": "1301bbe829b5a87d119e881e15ceca19",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\val_batch0_labels.jpg": {
+    "mtime": 1777735887.6374002,
+    "ast_hash": "21d881e0d64499a69ba5547a87fa863c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\val_batch0_pred.jpg": {
+    "mtime": 1777735887.6882064,
+    "ast_hash": "deed6ae469eb17cf655af5c6c91c0bf5",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\val_batch1_labels.jpg": {
+    "mtime": 1777735891.805548,
+    "ast_hash": "fcc1d0d20c6c0d740371a633ef48a1cd",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\val_batch1_pred.jpg": {
+    "mtime": 1777735891.8708892,
+    "ast_hash": "ff8ac8226fa68bedc856644e7391a2e2",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\val_batch2_labels.jpg": {
+    "mtime": 1777735896.5301888,
+    "ast_hash": "b000f57bfb403c5b8b1a2b735ea01bdf",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\runs\\detect\\runs\\railway_inspection_v1-4\\val_batch2_pred.jpg": {
+    "mtime": 1777735896.564897,
+    "ast_hash": "293d8220a9d964f39564f4262cd0e133",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\data.yaml": {
+    "mtime": 1778727689.931694,
+    "ast_hash": "42cec01b6466d5cf3fd0edf0720c81ee",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\images.jpg": {
+    "mtime": 1779156671.2882261,
+    "ast_hash": "98f7b69b0ea662036bbc947c3452dba8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\test_ocr.py": {
+    "mtime": 1779158402.3474448,
+    "ast_hash": "e3d5e78097bd7fe4d7d22ae733e9ee89",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\backend\\OCR\\test_text.jpg": {
+    "mtime": 1779158410.104437,
+    "ast_hash": "6250affd3d61a4f6afd30e74c7ca73ef",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\POC\\OCR_IMPLEMENTATION.md": {
+    "mtime": 1779205971.3634546,
+    "ast_hash": "c9cabbc067d1063856c6fbd1096b7bac",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\3-feb.jpeg": {
+    "mtime": 1779159500.5034082,
+    "ast_hash": "31c46337631f0881f3444893bac0fe25",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\images (1).jpg": {
+    "mtime": 1779159542.446538,
+    "ast_hash": "228708555d2b7ff778227529b6d7c291",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\images (2).jpg": {
+    "mtime": 1779159551.2636995,
+    "ast_hash": "d621ffa608dddf2a8beb1afc16d34345",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\indian-rail-bogie-sunny-day-86598824.webp": {
+    "mtime": 1779159514.4522743,
+    "ast_hash": "f0c66710d19031a6529c6619ad112d13",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\the-image-of-indian-trainwas-atken-at-sawai-madhopur-in-rajasthan-G58676.jpg": {
+    "mtime": 1779159623.4929726,
+    "ast_hash": "7d2e3993529a84ae77ae88ea2317b4df",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\OCR\\Source\\The_Common_Wanderer_india_train_travel_tips-17_1.webp": {
+    "mtime": 1779159585.2964542,
+    "ast_hash": "f0fa4404740b2743a3ec1c1f71af30ce",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\components.json": {
+    "mtime": 1779245830.4354477,
+    "ast_hash": "4390347905768b9430321dba2d17490e",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\eslint.config.js": {
+    "mtime": 1779245830.4354477,
+    "ast_hash": "75a0286de267d5393020e4439ed72f6a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\jsconfig.json": {
+    "mtime": 1779245830.4360466,
+    "ast_hash": "c2e0b18f2d87b445e3b7f0872f886a54",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\package.json": {
+    "mtime": 1779245830.439052,
+    "ast_hash": "8ec8a53c7a072d1a1e89212256d4ffe8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\vite.config.js": {
+    "mtime": 1779292406.5489447,
+    "ast_hash": "87e493a36a3e2a5417cc6ae37b1bfae8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\App.jsx": {
+    "mtime": 1779245830.4400518,
+    "ast_hash": "35e837803bda46f67b424d6dadbae9d5",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\main.jsx": {
+    "mtime": 1779245830.4496114,
+    "ast_hash": "f92ae42baf1714590e78e5b4efa4337b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\dashboard\\KPICard.jsx": {
+    "mtime": 1779245830.4430594,
+    "ast_hash": "d30ea399d503e226375e80270b5eb773",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\dashboard\\LiveTrainCard.jsx": {
+    "mtime": 1779245830.4430594,
+    "ast_hash": "8e9b1a1bebf4d7f5d32d19ec5874d1d5",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\layout\\Shell.jsx": {
+    "mtime": 1779245830.4440558,
+    "ast_hash": "39b4dd4b41723aa4f0fe0d6440453589",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\ui\\accordion.jsx": {
+    "mtime": 1779245830.4440558,
+    "ast_hash": "e1307ad61a12f347b634dd409482641b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\ui\\badge.jsx": {
+    "mtime": 1779245830.4440558,
+    "ast_hash": "4620224c35671c0dfc20f455fdeeb219",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\ui\\button.jsx": {
+    "mtime": 1779245830.4450533,
+    "ast_hash": "5d5c8666d427309eff24d1092014bcef",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\ui\\card.jsx": {
+    "mtime": 1779245830.4450533,
+    "ast_hash": "57d0eb194135aecc5d7dfd898afced13",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\ui\\collapsible.jsx": {
+    "mtime": 1779245830.4460583,
+    "ast_hash": "b3326e3449aa4401e95ef72d13b9db74",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\ui\\progress.jsx": {
+    "mtime": 1779245830.4460583,
+    "ast_hash": "674969627d53f03a175420424b63acc1",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\ui\\scroll-area.jsx": {
+    "mtime": 1779245830.4470558,
+    "ast_hash": "027bdd493f09718eb8304da866ec1cb5",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\ui\\separator.jsx": {
+    "mtime": 1779245830.4470558,
+    "ast_hash": "e7ef857adc3fd05969bb266f60e37fae",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\components\\workspace\\HierarchyTree.jsx": {
+    "mtime": 1779245830.4480588,
+    "ast_hash": "9d5a995a5ab197b7224632c549c4a442",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\data\\mockData.js": {
+    "mtime": 1779245830.4486012,
+    "ast_hash": "ae3bc4359138677a08d9b3fa6522d386",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\lib\\utils.js": {
+    "mtime": 1779245830.4496114,
+    "ast_hash": "ce1f6efe1e34bdc0ad12e76461747bd0",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\pages\\Analytics.jsx": {
+    "mtime": 1779245830.4506226,
+    "ast_hash": "097b56e302246fe3c8925bf9215b00e1",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\pages\\Dashboard.jsx": {
+    "mtime": 1779245830.4516215,
+    "ast_hash": "223862203d24c80e2026a3eee33a51ae",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\pages\\Infrastructure.jsx": {
+    "mtime": 1779245830.4516215,
+    "ast_hash": "7a3514ea38e7b10c766bc2a9f7d6ebc8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\pages\\LiveQueue.jsx": {
+    "mtime": 1779245830.4526205,
+    "ast_hash": "342b3375af8c0a4e5fd26218bf966563",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\pages\\Reports.jsx": {
+    "mtime": 1779245830.4536202,
+    "ast_hash": "15eeb6da3d8330c182a9f9200a30f2d6",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\pages\\Sessions.jsx": {
+    "mtime": 1779245830.4536202,
+    "ast_hash": "a763f037795903d48c9872bc03e00a31",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\pages\\Settings.jsx": {
+    "mtime": 1779245830.4546213,
+    "ast_hash": "16d57a44d9f811d58f3bd96eab3e6fdd",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\pages\\TrainWorkspace.jsx": {
+    "mtime": 1779245830.4546213,
+    "ast_hash": "3724984c86de84b3b7508578a2df3233",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend_development_plan.md": {
+    "mtime": 1779245830.4556208,
+    "ast_hash": "a9fb373b65add88bf41c4c9cfbb73c03",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\README.md": {
+    "mtime": 1779245830.4339411,
+    "ast_hash": "724eb0ada7d96c110c6bcba01a263c04",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\vande_inspect_ai_complete_ui_architecture_doc.md": {
+    "mtime": 1779213553.9014559,
+    "ast_hash": "4e842ea9b0ab5a3229be8913207c3972",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\index.html": {
+    "mtime": 1779245830.4360466,
+    "ast_hash": "4e08841a7a6610ac8fd5b6510e2a69c7",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\README.md": {
+    "mtime": 1779245830.4354477,
+    "ast_hash": "1fd1975c826313d9af82af3562df872f",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\ChatGPT_UI_Flow_for_Train_Platform_2026-05-20_00-21-08.md": {
+    "mtime": 1779245830.4566207,
+    "ast_hash": "1032339375e8bce82152fc038d11d348",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\frontend_architecture_and_tech_stack.md": {
+    "mtime": 1779245830.4566207,
+    "ast_hash": "bd504274110cc4b790c7706a33808c63",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\frontend_mock_data_structures.md": {
+    "mtime": 1779245830.45762,
+    "ast_hash": "1d0686f4cd9508041ebc6d73e9a4a602",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\frontend_routes_and_navigation.md": {
+    "mtime": 1779245830.45762,
+    "ast_hash": "25ce9bbba3e9ddf8695ff2be34da81fe",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\frontend_train_workspace_ui.md": {
+    "mtime": 1779245830.4586182,
+    "ast_hash": "bcdabb1afe1b14fdcf6f508e65b23c82",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\vande_inspect_ai_complete_ui_architecture_doc.md": {
+    "mtime": 1779245830.5101385,
+    "ast_hash": "372f5fcb1a0975eb76655af914a0443d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\component_defect_workspace_vande_inspect_ai\\code.html": {
+    "mtime": 1779245830.4596138,
+    "ast_hash": "2ff357a05d42128f47ed0c5a4d441597",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\defect_registry_workspace_vande_inspect_ai\\code.html": {
+    "mtime": 1779245830.4726262,
+    "ast_hash": "a14990b8309d9dfe07f68f45ca1496fc",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\industrial_precision\\DESIGN.md": {
+    "mtime": 1779245830.4786246,
+    "ast_hash": "f51acdc500cd762ccc83209852f074d7",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\inspection_sessions_light_theme_vande_inspect_ai\\code.html": {
+    "mtime": 1779245830.4796214,
+    "ast_hash": "a328ce2bdf88d8260d84a11bcb08ed61",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\inspection_sessions_vande_inspect_ai\\code.html": {
+    "mtime": 1779245830.483132,
+    "ast_hash": "85311792e96ba863b3590bec47ece82c",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\operations_dashboard_light_theme_vande_inspect_ai\\code.html": {
+    "mtime": 1779245830.4871423,
+    "ast_hash": "b74a1758fb795e4e1e6007d2cb7c78aa",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\operations_dashboard_vande_inspect_ai\\code.html": {
+    "mtime": 1779245830.4911454,
+    "ast_hash": "38302aec55c50641074950e86cf7ca18",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\report_generation_workspace_vande_inspect_ai\\code.html": {
+    "mtime": 1779245830.49614,
+    "ast_hash": "bf6701ecc209b94ac48ca14facfe64ff",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\tactical_rail_intelligence\\DESIGN.md": {
+    "mtime": 1779245830.5011375,
+    "ast_hash": "9d79835f96744a95e1901fbc5c002833",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\train_intelligence_workspace_vande_inspect_ai\\code.html": {
+    "mtime": 1779245830.502139,
+    "ast_hash": "eb2dfd5a0c909dcfaedf594b64c23ed6",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\public\\favicon.svg": {
+    "mtime": 1779245830.439052,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\public\\icons.svg": {
+    "mtime": 1779245830.4400518,
+    "ast_hash": "21c7473c592c67dc87223d49892c8f0a",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\assets\\hero.png": {
+    "mtime": 1779245830.441059,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\assets\\react.svg": {
+    "mtime": 1779245830.4420578,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\frontend\\src\\assets\\vite.svg": {
+    "mtime": 1779245830.4420578,
+    "ast_hash": "6d5180a782d64c8cf51ba01c2a2184d8",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\component_defect_workspace_vande_inspect_ai\\screen.png": {
+    "mtime": 1779245830.4716198,
+    "ast_hash": "b7fb05fe5ea4109aab24e5f433fd37a6",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\defect_registry_workspace_vande_inspect_ai\\screen.png": {
+    "mtime": 1779245830.4776196,
+    "ast_hash": "ed4594fdb8be0d73c20e96c6eb3b7a84",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\inspection_sessions_light_theme_vande_inspect_ai\\screen.png": {
+    "mtime": 1779245830.483132,
+    "ast_hash": "a3048e7ec1ce3f1ba42cd3af8d0c3254",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\inspection_sessions_vande_inspect_ai\\screen.png": {
+    "mtime": 1779245830.4871423,
+    "ast_hash": "70eb5029406a4aec1389ee9c4e5de3da",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\operations_dashboard_light_theme_vande_inspect_ai\\screen.png": {
+    "mtime": 1779245830.4911454,
+    "ast_hash": "b8d3849b917be1d9917ba76280ecbd4d",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\operations_dashboard_vande_inspect_ai\\screen.png": {
+    "mtime": 1779245830.49614,
+    "ast_hash": "0d703023bc2b1979196b4996aa2091f1",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\report_generation_workspace_vande_inspect_ai\\screen.png": {
+    "mtime": 1779245830.5011375,
+    "ast_hash": "ee112c5db1eac8df74c5ba728aaaeddf",
+    "semantic_hash": ""
+  },
+  "E:\\PROJECTS\\VandeBharat\\Main\\ui_architecture-specs\\stitch_vande_inspect_ai_operations_control\\stitch_vande_inspect_ai_operations_control\\train_intelligence_workspace_vande_inspect_ai\\screen.png": {
+    "mtime": 1779245830.5101385,
+    "ast_hash": "a36d2b6222f448888bce8ad4f761fea4",
+    "semantic_hash": ""
+  }
+}

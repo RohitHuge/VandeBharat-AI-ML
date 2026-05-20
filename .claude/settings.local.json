@@ -55,7 +55,11 @@
       "PowerShell(& \"E:\\\\Python310\\\\python.exe\" -c \"from ultralytics import YOLO; m = YOLO\\('E:/PROJECTS/VandeBharat/POC/backend/models/best.pt'\\); print\\(m.names\\)\" 2>&1)",
       "Bash(Get-ChildItem *)",
       "Bash(xargs wc -l)",
-      "PowerShell(& \"E:\\\\PROJECTS\\\\VandeBharat\\\\POC\\\\backend\\\\OCR\\\\venv\\\\Scripts\\\\pip.exe\" show paddlepaddle-gpu 2>&1)"
+      "PowerShell(& \"E:\\\\PROJECTS\\\\VandeBharat\\\\POC\\\\backend\\\\OCR\\\\venv\\\\Scripts\\\\pip.exe\" show paddlepaddle-gpu 2>&1)",
+      "Bash(not exist *)",
+      "Bash(mkdir -p /mnt/e/PROJECTS/VandeBharat/graphify-out)",
+      "Read(//mnt/e/PROJECTS/VandeBharat/**)",
+      "PowerShell(New-Item *)"
     ]
   }
 }
